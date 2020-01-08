@@ -4,3 +4,159 @@
     margin: 0 auto;
     text-align: left;
 }
+
+.statusStyle .statusprimecontent {
+    border-radius: 25px;
+    border-left: 20px solid #834346;
+    border-bottom: 20px solid #834346;
+    text-align: center;
+    background-color: rgba(180, 182, 190, 0.767);
+    width: 100%;
+    padding:50px;
+    margin:50px 0;
+}
+
+.statusStyle .statusprimecontent .masterStatusDiv{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.statusStyle .statusprimecontent .masterStatusDiv .visualStatusDiv {
+    border-left: 15px solid black;
+    border-top: 10px solid black;
+    width:10%;
+    height:150px;
+}
+
+.statusStyle .statusprimecontent .masterStatusDiv .visualStatusDiv.firstStatus{
+    border-left: none;
+    height: 10px;
+}
+.statusStyle .statusprimecontent .masterStatusDiv .textStatusDiv {
+    width:90%;
+    height:75px;
+    display: flex;
+    justify-content: space-between;
+    transform:translateY(-50%);
+}
+
+.statusStyle .statusprimecontent .masterStatusDiv .textStatusDiv .statusTitle,
+.statusStyle .statusprimecontent .masterStatusDiv .textStatusDiv .statusDate,
+.statusStyle .statusprimecontent .masterStatusDiv .textStatusDiv .StatusDone,
+.statusStyle .statusprimecontent .masterStatusDiv .textStatusDiv .statusPerson{
+    border: 2px solid black;
+    border-radius: 80px;
+    font-size:24px; 
+    text-align: left;
+    padding-left:30px;
+    padding-top:20px;
+    background-color: #E1E4EF;
+}
+
+.statusStyle .statusprimecontent .masterStatusDiv .textStatusDiv .StatusDone {
+    color:white;
+}
+
+
+.statusStyle .statusprimecontent .masterStatusDiv.overview .textStatusDiv .StatusDone {
+    color:black;
+}
+
+.statusStyle .statusprimecontent .masterStatusDiv.overview {
+    font-weight: bolder;
+    padding-left:0px;
+    text-decoration: none;
+    text-align: center;
+    padding-top:50px;
+    
+}
+
+.statusStyle .statusprimecontent .masterStatusDiv.overview .textStatusDiv .statusTitle,
+.statusStyle .statusprimecontent .masterStatusDiv.overview .textStatusDiv .statusDate,
+.statusStyle .statusprimecontent .masterStatusDiv.overview .textStatusDiv .StatusDone,
+.statusStyle .statusprimecontent .masterStatusDiv.overview .textStatusDiv .statusPerson {
+    background-color:  rgba(225, 228, 239, 0.342); 
+}
+
+
+
+.statusStyle .statusprimecontent .masterStatusDiv.overview  .visualStatusDiv {
+    border-left: none;
+    border-top:none;
+    height:100px;
+}
+
+.statusStyle .statusprimecontent .masterStatusDiv.overview .statusTitle  {
+    font-weight: bolder;
+    padding-left:0px;
+    text-align: center;
+  
+}
+
+
+
+.statusStyle .statusprimecontent .masterStatusDiv .textStatusDiv .statusTitle {
+    width:50%;
+
+}
+
+.statusStyle .statusprimecontent .masterStatusDiv .textStatusDiv .statusDate {
+    width:20%;
+    text-align: center;
+    padding-left:0px;
+}
+
+
+.statusStyle .statusprimecontent .masterStatusDiv .textStatusDiv .statusPerson {
+    width:15%;
+    text-align: center;
+    padding-left:0px;
+}
+
+
+.statusStyle .statusprimecontent .masterStatusDiv .textStatusDiv .StatusDone {  
+    width:15%;
+    text-align: center;
+    padding-left:0px;
+    font-weight: bolder;
+    text-decoration: underline;
+
+}
+
+
+.statusStyle .statusprimecontent .masterStatusDiv.overview .textStatusDiv .statusPerson {
+    padding-top:5px;   
+}
+
+.statusStyle .statusprimecontent .masterStatusDiv.overview .textStatusDiv .StatusDone {  
+
+    text-decoration: none;
+
+}
+
+
+.statusStyle .statusprimecontent .masterStatusDiv .textStatusDiv .StatusDone.done {
+    background-color: #568248
+}
+
+
+.statusStyle .statusprimecontent .masterStatusDiv .textStatusDiv .StatusDone.hiatus{
+    background-color: rgb(153, 151, 138);
+}
+
+
+.statusStyle .statusprimecontent .masterStatusDiv .textStatusDiv .StatusDone.low {
+    background-color: #834346;
+}
+
+
+
+.statusStyle .statusprimecontent .masterStatusDiv .textStatusDiv .StatusDone.focus {
+    background-color: #4B4B8B;
+}
+
+.statusStyle .statusprimecontent .masterStatusDiv .textStatusDiv .StatusDone.medium{
+    background-color: rgb(131, 118, 5);
+}

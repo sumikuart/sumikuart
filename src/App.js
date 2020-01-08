@@ -16,6 +16,7 @@ import ContactComponent from './components/sideComponent/contact/contact.compone
 import NewsComponent from './components/sideComponent/news/news.component';
 import StatusComponent from './components/sideComponent/status/status.component';
 import SynopsisComponent from './components/sideComponent/Synopsis/synopsis.component';
+import ArtComponent from './components/sideComponent/art/art.component';
 
 function App() {
   return (
@@ -34,7 +35,8 @@ function App() {
             <Route exact path='/contact' component={ContactComponent} />
             <Route exact path='/news' component={NewsComponent} />
             <Route exact path='/status' component={StatusComponent} />
-            <Route exact path='/synopsis' component={SynopsisComponent} />
+            <Route exact path='/story' component={SynopsisComponent} />
+            <Route exact path='/art' component={ArtComponent} />
             </main>
             
 

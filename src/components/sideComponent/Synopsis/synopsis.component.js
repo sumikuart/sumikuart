@@ -12,7 +12,7 @@ const SynopsisComponent = () => {
         <div className='synpsisStyle'>
 
             <div className='headline'>
-                <p>Synopsis & Features</p>
+                <p>Story & Features</p>
             </div>
 
             <div className='underheadline'>

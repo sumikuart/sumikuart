@@ -42,7 +42,7 @@ const HomeComponent = () => {
                     <p>My hope is, to make a desent game, for people to buy and play</p>
                     <p>-</p>
                     <p>So what is this game?</p>
-                    <p>it's a Japanes manga and anime inspired 3D mystery game, width social and magical elements.</p>
+                    <p>it's a Japanes manga and anime inspired 3D mystery game, with social, tactical and magical elements.</p>
                     <p>my current vision for the game, is very dark (+18)</p>
                     <NavLink to='/synopsis'>Read More About the game HERE</NavLink>
                     <p>-</p>
@@ -92,6 +92,9 @@ const HomeComponent = () => {
                 <p className='g'>I just Wish i didn't Know!!!!!!</p>
                 <p className='h'>I just Wish i didn't Know!!!!!!!"</p>
                 <p className='i'>- Nemo Kurai</p>
+
+                <p className='j'>"Don't you?"</p>
+
             </div>
                 
             </div>

@@ -4,3 +4,9 @@
     background-color:#4b4b8b;
     border-top: 2px solid black;
 }
+
+.footerstyle p {
+    color:white;
+    font-size: 24px;
+    padding-top:30px;   
+}

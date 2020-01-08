@@ -16,7 +16,7 @@ const CharacterComponent = () => {
             </div>
 
             <div className='underheadline'>
-                <p>Here you will finde info about characters as they are developed (warning spoilers)</p>
+                <p>Here you will finde info about characters as they are developed (Warning: light spoilers)</p>
             </div>
 
         </div>

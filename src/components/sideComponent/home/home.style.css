@@ -24,8 +24,9 @@
 
 @media screen and (max-width:700px) {
     .homestyle .homeTopContent {
-     display:block
+        display: block
     }
+
     .homestyle .homeTopContent .homeMainInfo {
         width: 100%;
         border-left: 20px solid #834346;
@@ -34,7 +35,7 @@
         line-height: 2;
     }
 
-    .homestyle .homeTopContent .homeMainInfo p{
+    .homestyle .homeTopContent .homeMainInfo p {
         margin: 30px 0;
     }
 
@@ -45,7 +46,7 @@
         line-height: 2;
     }
 
-    
+
     .homestyle .homeTopContent .homeFokus p {
         margin: 30px 0;
     }
@@ -60,12 +61,21 @@
         width: 55%;
         border-right: 20px solid #834346;
         border-bottom: 20px solid #834346;
-        font-size: 20px;
+        font-size: 26px;
+        line-height: 1.5;
+    }
+
+
+    .homestyle .homeTopContent .homeMainInfo p,
+    .homestyle .homeTopContent .homeMainInfo a {
+        width: 90%;
+        margin: 0 auto;
     }
 
     .homestyle .homeTopContent .homeFokus {
         width: 40%;
-        font-size: 20px;
+        font-size: 26px;
+        line-height: 1.5;
     }
 }
 
@@ -79,7 +89,7 @@
 .homestyle .homeTopContent .homeFokus .smallHeadline,
 .homestyle .homeTopContent .homeMainInfo .bottomLine,
 .homestyle .homeTopContent .homeMainInfo .smallHeadline {
-    margin:30px;
+    margin: 30px;
 }
 
 
@@ -135,19 +145,18 @@
 
 @media screen and (max-width:1400px) {
     .homestyle .homebottomContent {
-   display:none
+        display: none
     }
 }
 
 @media screen and (min-width:1401px) {
-    .homestyle .homebottomContent {
-    
-    }
+    .homestyle .homebottomContent {}
 }
 
 .homestyle .homebottomContent .homebottomtext {
     width: 70%;
     margin: 50px;
+    line-height: 2.5;
 }
 
 .homestyle .homebottomContent .homebottomtext .a {
@@ -190,7 +199,7 @@
 
 .homestyle .homebottomContent .homebottomtext .g {
     font-size: 38px;
-    padding-left: 450px;
+    padding-left: 300px;
 }
 
 .homestyle .homebottomContent .homebottomtext .h {
@@ -205,4 +214,8 @@
     text-align: right;
     font-style: italic;
     text-decoration: underline;
+}
+
+.homestyle .homebottomContent .homebottomtext .j{
+    color:#834346;
 }
