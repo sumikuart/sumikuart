@@ -1,0 +1,208 @@
+.homestyle {
+    width: 85%;
+    min-height: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+.homestyle .homeimgholder {
+    width: 100%;
+    margin: 40px auto;
+    margin-bottom: 100px;
+
+}
+
+.homestyle .homeimgholder img {
+    width: 100%;
+    display: block;
+    -webkit-box-shadow: 0px 0px 31px 10px #568248;
+    -moz-box-shadow: 0px 0px 31px 10px #568248;
+    box-shadow: 0px 0px 31px 10px #568248;
+}
+
+
+@media screen and (max-width:700px) {
+    .homestyle .homeTopContent {
+     display:block
+    }
+    .homestyle .homeTopContent .homeMainInfo {
+        width: 100%;
+        border-left: 20px solid #834346;
+        border-bottom: 20px solid #834346;
+        font-size: 28px;
+        line-height: 2;
+    }
+
+    .homestyle .homeTopContent .homeMainInfo p{
+        margin: 30px 0;
+    }
+
+    .homestyle .homeTopContent .homeFokus {
+        width: 100%;
+        margin-bottom: 30px;
+        font-size: 28px;
+        line-height: 2;
+    }
+
+    
+    .homestyle .homeTopContent .homeFokus p {
+        margin: 30px 0;
+    }
+}
+
+@media screen and (min-width:701px) {
+    .homestyle .homeTopContent {
+        justify-content: space-between;
+    }
+
+    .homestyle .homeTopContent .homeMainInfo {
+        width: 55%;
+        border-right: 20px solid #834346;
+        border-bottom: 20px solid #834346;
+        font-size: 20px;
+    }
+
+    .homestyle .homeTopContent .homeFokus {
+        width: 40%;
+        font-size: 20px;
+    }
+}
+
+.homestyle .homeTopContent .homeMainInfo {
+    border-radius: 25px;
+
+    text-align: center;
+    background-color: rgb(180, 182, 190);
+}
+
+.homestyle .homeTopContent .homeFokus .smallHeadline,
+.homestyle .homeTopContent .homeMainInfo .bottomLine,
+.homestyle .homeTopContent .homeMainInfo .smallHeadline {
+    margin:30px;
+}
+
+
+
+.homestyle .homeTopContent .homeFokus {
+    border-radius: 25px;
+    border-left: 20px solid #834346;
+    border-bottom: 20px solid #834346;
+    text-align: center;
+    background-color: rgb(180, 182, 190);
+}
+
+
+.homestyle .homeTopContent .homeFokus ul {
+    padding-left: 40px;
+    margin: 30px;
+    text-align: left;
+}
+
+
+.homestyle .homeTopContent .homeMainInfo a,
+.homestyle .homeTopContent .homeFokus a {
+    font-weight: bolder;
+    font-size: 24px;
+    color: black;
+    display: block;
+    margin: 20px;
+}
+
+.homestyle .homebottomContent {
+    background-color: rgba(180, 182, 190, 0.767);
+    margin: 100px 0;
+    border-radius: 25px;
+}
+
+.homestyle .homebottomContent .homeimgholderbottom {
+    margin: 50px;
+    margin-left: 250px;
+    filter: blur(8px);
+    transition: 0.5s;
+}
+
+.homestyle .homebottomContent .homeimgholderbottom:hover {
+    filter: blur(0px);
+}
+
+.homestyle .homebottomContent .homeimgholderbottom img {
+    display: block;
+    width: 100%;
+    border-radius: 90%;
+}
+
+
+@media screen and (max-width:1400px) {
+    .homestyle .homebottomContent {
+   display:none
+    }
+}
+
+@media screen and (min-width:1401px) {
+    .homestyle .homebottomContent {
+    
+    }
+}
+
+.homestyle .homebottomContent .homebottomtext {
+    width: 70%;
+    margin: 50px;
+}
+
+.homestyle .homebottomContent .homebottomtext .a {
+    font-size: 14px;
+    padding-left: 0px;
+    padding-top: 70px;
+}
+
+.homestyle .homebottomContent .homebottomtext .b {
+    font-size: 18px;
+    padding-left: 400px;
+    padding-top: 60px;
+}
+
+.homestyle .homebottomContent .homebottomtext .c {
+    font-size: 22px;
+    font-weight: bolder;
+    padding-left: 60px;
+    padding-top: 50px;
+}
+
+.homestyle .homebottomContent .homebottomtext .d {
+    font-size: 26px;
+    padding-left: 200px;
+    padding-top: 40px;
+}
+
+.homestyle .homebottomContent .homebottomtext .e {
+    font-size: 30px;
+    padding-left: 30px;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+
+.homestyle .homebottomContent .homebottomtext .f {
+    font-size: 34px;
+    padding-left: 250px;
+    padding-top: 20px;
+}
+
+.homestyle .homebottomContent .homebottomtext .g {
+    font-size: 38px;
+    padding-left: 450px;
+}
+
+.homestyle .homebottomContent .homebottomtext .h {
+    font-size: 42px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Papyrus';
+}
+
+.homestyle .homebottomContent .homebottomtext .i {
+    font-size: 42px;
+    text-align: right;
+    font-style: italic;
+    text-decoration: underline;
+}
