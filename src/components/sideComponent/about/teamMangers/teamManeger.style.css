@@ -1,0 +1,42 @@
+.mangercomponentstyle {
+    width:100%;
+    border-left: 20px solid #834346;
+    border-bottom: 20px solid #834346;
+    font-size: 30px;
+    line-height: 1.5;
+    background-color: rgb(180, 182, 190);
+    border-radius: 25px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.mangercomponentstyle .Managerboard {
+
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    width:90%;
+    margin: 0 auto;
+
+
+}
+
+
+.mangercomponentstyle .Managerboard .leaderContainer {
+    width: 30%;
+    border: 2px solid black;
+    margin:20px;
+}
+
+
+.mangercomponentstyle  .Managerboard .leaderContainer .lederImgHolder {
+    width:150px;
+    height:200px;
+
+    margin: 0 auto;
+}
+
+
+.mangercomponentstyle .leaderContainer .lederImgHolder img {
+    width:100%;
+    height: 100%;
+}

@@ -38,7 +38,7 @@ const StatusComponent = () => {
                     <div className='visualStatusDiv'></div>
                     <div className='textStatusDiv'>
                         <div className='statusTitle'> <p>Make the V1.0 games Website and get it online</p> </div>
-                        <div className='statusDate'> <p>06-01-2020 - 08-01-2020</p></div>
+                        <div className='statusDate'> <p>06-01-2020 - 11-01-2020</p></div>
                         <div className='statusPerson'> <p>Sumiku</p></div>
                         <div className='StatusDone focus'>  <p>High Focus</p></div>
                     </div>

@@ -1,0 +1,78 @@
+.profileComponentstyle {
+    width: 85%;
+    min-height: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.profileComponentstyle  .profileflexer {
+    justify-content: space-between;
+}
+.profileComponentstyle .profileContent {
+    width:100%;
+    margin: 40px 0;
+}
+
+.profileComponentstyle  .profileContent .uppertextcontent {
+    width:60%;
+    border-left: 20px solid #834346;
+    border-bottom: 20px solid #834346;
+    font-size: 30px;
+    line-height: 1.5;
+    background-color: rgb(180, 182, 190);
+    border-radius: 25px;
+}
+.profileComponentstyle  .profileContent .textInProfileData {
+    margin:50px;
+}
+
+
+.profileComponentstyle  .profileContent .uppertextcontent p {
+    margin-left:40px;
+}
+
+.profileComponentstyle  .profileContent .uppertextcontent  .question {
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.profileComponentstyle  .profileContent .uppertextcontent  .info {
+    font-size: 24px;
+}
+
+.profileComponentstyle  .profileContent .upperimgcontent {
+    width:40%;
+}
+
+.profileComponentstyle  .profileContent .upperimgcontent img{
+    width:50%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.profileComponentstyle  .profileContent .profileMeatText {
+    width:100%;
+    border-left: 20px solid #834346;
+    border-bottom: 20px solid #834346;
+    font-size: 30px;
+    line-height: 1.5;
+    background-color: rgb(180, 182, 190);
+    border-radius: 25px;
+    margin-top:30px;
+    padding-Bottom:30px;
+}
+
+
+.profileComponentstyle  .profileContent .profileMeatText .profileHeadline {
+    font-weight: bolder;
+    font-size: 32px;
+    margin-left:90px;
+    padding-top:50px;
+}
+
+.profileComponentstyle  .profileContent .profileMeatText .profileText{
+    font-size: 24px;
+    margin-left:90px;
+
+}

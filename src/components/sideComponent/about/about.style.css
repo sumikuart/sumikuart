@@ -4,3 +4,78 @@
     margin: 0 auto;
     text-align: left;
 }
+
+
+.aboutstyle .aboutTeamInfo,
+.aboutstyle .aboutTeamNotice,
+.aboutstyle .aboutTeamList {
+    width:100%;
+    border-left: 20px solid #834346;
+    border-bottom: 20px solid #834346;
+    font-size: 30px;
+    line-height: 1.5;
+    background-color: rgb(180, 182, 190);
+    border-radius: 25px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.aboutstyle .aboutTeamInfo  .content {
+    text-align: left;
+}
+
+.aboutstyle .aboutTeamNotice .aboutObs {
+    font-size: 24px;
+    font-style: italic;
+}
+
+
+.aboutstyle .aboutTeamNotice ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    text-align: left;
+}
+
+
+
+.aboutstyle .aboutTeamNotice ul li {
+    width:33%;
+
+}
+
+.aboutstyle .aboutTeamNotice ul li a {
+    color: black;
+}
+
+.aboutstyle  .aboutTeamList  .teamCategory {
+    text-decoration: underline;
+    text-align: left;
+    font-weight: bolder;
+    margin-left:30px;
+}
+
+.aboutstyle  .aboutTeamList  .teamCategory span{
+    font-style: italic;
+    font-size: 20px;
+}
+
+.aboutstyle  .aboutTeamList ul {
+    display: block;
+text-align: left;
+margin-left:100px;
+
+}
+
+.aboutstyle  .aboutTeamList ul a {
+    font-size:20px;
+}
+
+.aboutstyle .teamContainer {
+    flex-wrap: wrap;
+}
+
+.aboutstyle .teamContainer div {
+    width:33%;
+    min-height: 150px;
+}
