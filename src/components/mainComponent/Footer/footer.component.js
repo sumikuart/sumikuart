@@ -11,7 +11,7 @@ const FooterComponent = () => {
 
     return (
         <div className='footerstyle'>
-            <p>Site Last Updated: 11-01-2020 by Sumiku</p>
+            <p>Site Last Updated: 12-01-2020 by Sumiku</p>
         </div>
     )
 

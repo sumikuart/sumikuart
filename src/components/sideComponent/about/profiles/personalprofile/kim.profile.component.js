@@ -16,7 +16,7 @@ const SumikuProfileComponent = () => {
             </div>
 
             <div className='underheadline'>
-                <p>Welcome to Sumiku profile  </p>
+                <p>Welcome to Kim's profile  </p>
             </div>
 
             <div className='profileContent'>
@@ -26,7 +26,7 @@ const SumikuProfileComponent = () => {
                     <div className = 'uppertextcontent'>
                         <div className = 'textInProfileData'>
                         <p className ='question' >Name:</p>
-                        <p className = 'info'>Kim 'Sumiku' </p>
+                        <p className = 'info'>Kim</p>
                         <p className ='question'>Age:</p>
                         <p className = 'info'> 30 </p>
                         <p className ='question'>Skills:</p>

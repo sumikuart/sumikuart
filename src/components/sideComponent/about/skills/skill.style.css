@@ -1,0 +1,18 @@
+.skilStyle {
+    width: 85%;
+    min-height: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skilStyle .skillContent {
+    width:100%;
+    border-left: 20px solid #834346;
+    border-bottom: 20px solid #834346;
+    font-size: 30px;
+    line-height: 1.5;
+    background-color: rgb(180, 182, 190);
+    border-radius: 25px;
+    margin:30px 0;
+    padding-Bottom:30px;
+}

@@ -4,6 +4,11 @@ import { BrowserRouter as Router, Route, Switch, NavLink} from "react-router-dom
 import './App.css';
 import './globalstyles.css'
 
+
+// Context
+import LeaderContextProvider from './context/teamleader.context';
+import ProfileComponent from './components/sideComponent/about/profiles/profile.component';
+
 // Components
 import NavigationsBar from './components/mainComponent/Navigation/navigation.component.';
 import FooterComponent from './components/mainComponent/Footer/footer.component';
@@ -18,12 +23,19 @@ import StatusComponent from './components/sideComponent/status/status.component'
 import SynopsisComponent from './components/sideComponent/Synopsis/synopsis.component';
 import ArtComponent from './components/sideComponent/art/art.component';
 
-// Context
-import LeaderContextProvider from './context/teamleader.context';
-import ProfileComponent from './components/sideComponent/about/profiles/profile.component';
 
 // Profiles:
-import SumikuProfileComponent from './components/sideComponent/about/profiles/personalprofile/sumiku.profile.component';
+import SumikuProfileComponent from './components/sideComponent/about/profiles/personalprofile/kim.profile.component';
+
+// Skills
+import WritingSkillComponent from './components/sideComponent/about/skills/skillProfile/writing.skill.component'
+import ProgrammingSkillComponent from './components/sideComponent/about/skills/skillProfile/programming.skill.component';
+import NPCDesignerSkillComponent from './components/sideComponent/about/skills/skillProfile/npcDesigner.skill.component';
+import ModelSkillComponent from './components/sideComponent/about/skills/skillProfile/model.skill.component';
+import AnimationSkillComponent from './components/sideComponent/about/skills/skillProfile/animation.skill.component';
+import LevelDesignerSkillComponent from './components/sideComponent/about/skills/skillProfile/lvlDesign.skill.component';
+import SoundSkillComponent from './components/sideComponent/about/skills/skillProfile/sound.skill.component';
+import VoiceSkillComponent from './components/sideComponent/about/skills/skillProfile/voice.skill.component';
 
 
 function App() {
@@ -43,7 +55,16 @@ function App() {
 
 
             <Route exact path='/about/profile/empty' component={ProfileComponent} />
-            <Route exact path='/about/profile/sumiku' component={SumikuProfileComponent} />
+            <Route exact path='/about/profile/kim' component={SumikuProfileComponent} />
+
+            <Route exact path='/skill/writing' component={WritingSkillComponent} />
+            <Route exact path='/skill/programming' component={ProgrammingSkillComponent} />
+            <Route exact path='/skill/npcdesigner' component={NPCDesignerSkillComponent} />
+            <Route exact path='/skill/model' component={ModelSkillComponent} />
+            <Route exact path='/skill/animation' component={AnimationSkillComponent} />
+            <Route exact path='/skill/lvldesign' component={LevelDesignerSkillComponent} />
+            <Route exact path='/skill/sound' component={SoundSkillComponent} />
+            <Route exact path='/skill/voice' component={VoiceSkillComponent} />
 
 
             <Route exact path='/characters' component={CharacterComponent} />

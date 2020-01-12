@@ -32,14 +32,15 @@ const HomeComponent = () => {
 
                 <div className='homeMainInfo'>
                     <p className='smallHeadline'>About us</p>
-                    <p>Well at this point its about me</p>
+                    <p>Well at this point its about me (Kim)</p>
                     <p>This is the page for my project "Kumik-3D (Working title)"</p>
                     <p>im currently a Web-Development Student </p>
                     <p>the goal is, to move on to studying game-programming later this year</p>
                     <p>i just need to complete my current education first</p>
                     <p>-</p>
-                    <p>With this goal, i have decided to design/make a game, i can work on paraleld with my educations</p>
-                    <p>My hope is, to make a good game, for people to buy and play</p>
+                    <p>With this goal, i have decided to design/make a game, i can work on paralled with my educations</p>
+                    <p>This game is a traning ground, and everyone who joins the project, should have training as the main priority</p>
+                    <p>But still my hope is, to make a good game, for people to buy and play</p>
                     <p>-</p>
                     <p>So what is this game?</p>
                     <p>it's a Japanes manga and anime inspired 3D mystery game, with social, tactical and magical elements.</p>
@@ -54,20 +55,22 @@ const HomeComponent = () => {
 
                 <div className='homeFokus'>
                     <p className='smallHeadline'>Looking For new Members!!!</p>
-                    <p>Are you looking for a serious game development team?</p>
+                    <p>!!!! This is a Practice Project, witch mean that it's about evolving our skills, not about being the best !!!!</p>
                     <p></p>
                     <p>Do you have one or more of the following skills?</p>
+                    <p>Or do you want to get better at any of them?</p>
                     <ul>
-                        <li>Writing story and dialog</li>
-                        <li>Programming (C++ C# and Java)</li>
-                        <li>Charecter Designer</li>
-                        <li>3D modeling</li>
-                        <li>3D Animation</li>
-                        <li>Level Designer</li>
-                        <li>Music and Sound</li>
-                        <li>Voice Acting</li>
+                    <li><NavLink to='/skill/writing'>Writing story and dialog</NavLink></li>
+                        <li><NavLink to='/skill/programming'>Programming (C++ C# and Java)</NavLink></li>
+                        <li><NavLink to='/skill/npcdesigner'>Charecter/Object Designer</NavLink></li>
+                        <li><NavLink to='/skill/model'>3D modeling</NavLink></li>
+                        <li><NavLink to='/skill/animation'>3D Animation</NavLink></li>
+                        <li><NavLink to='/skill/lvldesign'>Level Designer</NavLink></li>
+                        <li><NavLink to='/skill/sound'>Music and Sound</NavLink></li>
+                        <li><NavLink to='/skill/voice'>Voice Acting</NavLink></li>
                     </ul>
                     <p>Then please come join</p>
+                    <p>you can applay for as many teams as you want</p>
                     <p>Any Questions or intresseted?</p>
                     <NavLink to='/contact'> Please click Here</NavLink>
                 </div>

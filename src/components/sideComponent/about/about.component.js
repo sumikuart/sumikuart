@@ -25,21 +25,24 @@ const AboutComponent = () => {
 
             <div className='aboutTeamNotice'>
                 <p className='smallHeadline'>People Wanted:</p>
-                <p>We still need people with the following skills:</p>
+                <p>!!!! This is a Practice Project, witch mean that it's about evolving our skills, not about being the best !!!!</p>
+                <p>We need people with the following skills:</p>
+                <p>Or people who want to get better at  the following skills:</p>
                 <p className='aboutObs'>Click on a skill, to learn more about our needs</p>
 
                 <ul>
-                        <li><NavLink to='/about'>Writing story and dialog</NavLink></li>
-                        <li><NavLink to='/about'>Programming (C++ C# and Java)</NavLink></li>
-                        <li><NavLink to='/about'>Charecter Designer</NavLink></li>
-                        <li><NavLink to='/about'>3D modeling</NavLink></li>
-                        <li><NavLink to='/about'>3D Animation</NavLink></li>
-                        <li><NavLink to='/about'>Level Designer</NavLink></li>
-                        <li><NavLink to='/about'>Music and Sound</NavLink></li>
-                        <li><NavLink to='/about'>Voice Acting</NavLink></li>
+                        <li><NavLink to='/skill/writing'>Writing story and dialog</NavLink></li>
+                        <li><NavLink to='/skill/programming'>Programming (C++ C# and Java)</NavLink></li>
+                        <li><NavLink to='/skill/npcdesigner'> Charecter/Object Designer</NavLink></li>
+                        <li><NavLink to='/skill/model'>3D modeling</NavLink></li>
+                        <li><NavLink to='/skill/animation'>3D Animation</NavLink></li>
+                        <li><NavLink to='/skill/lvldesign'>Level Designer</NavLink></li>
+                        <li><NavLink to='/skill/sound'>Music and Sound</NavLink></li>
+                        <li><NavLink to='/skill/voice'>Voice Acting</NavLink></li>
                     </ul>
 
                 <p>Please contact us if you have questions or are intressted:</p>
+                <p>you can applay for as many teams as you want</p>
 
                 <NavLink to='/contact'>Contact</NavLink>
             </div>
@@ -75,60 +78,60 @@ const AboutComponent = () => {
                         
                 <p className='teamCategory'>Story <span>(1)</span> :</p>
                 <ul>
-                    <li>Sumiku (<NavLink to='/about/profile/sumiku'>Info</NavLink>)</li>
+                    <li>Kim (manager) (<NavLink to='/about/profile/kim'>Info</NavLink>)</li>
                 </ul>
                     </div>
 
 <div>
                 <p className='teamCategory'>Concept Art<span>(1)</span>:  </p>
                 <ul>
-                    <li>Sumiku (<NavLink to='/about/profile/sumiku'>Info</NavLink>)</li>
+                    <li>Kim (manager) (<NavLink to='/about/profile/kim'>Info</NavLink>)</li>
                 </ul>
                 </div>
 
                 <div>
                 <p className='teamCategory'>Charecter Design<span>(1)</span>:</p>
                 <ul>
-                    <li>Sumiku (<NavLink to='/about/profile/sumiku'>Info</NavLink>)</li>
+                    <li>Kim  (manager) (<NavLink to='/about/profile/kim'>Info</NavLink>)</li>
                 </ul>
                 </div>
                 <div>
                 <p className='teamCategory'>3D Graphics<span>(1)</span>:</p>
                 <ul>
-                    <li>Sumiku (<NavLink to='/about/profile/sumiku'>Info</NavLink>)</li>
+                    <li>Kim (<NavLink to='/about/profile/kim'>Info</NavLink>)</li>
                 </ul>
                 </div>
 
                 <div>
                 <p className='teamCategory'>Programming<span>(1)</span>:</p>
                 <ul>
-                    <li>Sumiku (<NavLink to='/about/profile/sumiku'>Info</NavLink>)</li>
+                    <li>Kim (manager) (<NavLink to='/about/profile/kim'>Info</NavLink>)</li>
                 </ul>
                 </div>
                 <div>
                 <p className='teamCategory'>Animation<span>(1)</span>:</p>
                 <ul>
-                    <li>Sumiku (<NavLink to='/about/profile/sumiku'>Info</NavLink>)</li>
+                    <li>Kim (<NavLink to='/about/profile/kim'>Info</NavLink>)</li>
                 </ul>
                 </div>
                 <div>
                 <p className='teamCategory'>Music & Sound<span>(1)</span>:</p>
                 <ul>
-                    <li>Sumiku (<NavLink to='/about/profile/sumiku'>Info</NavLink>)</li>
+                    <li>Kim (<NavLink to='/about/profile/kim'>Info</NavLink>)</li>
                 </ul>
                 </div>
 
                 <div>
                 <p className='teamCategory'>Voice Acting<span>(1)</span>:</p>
                 <ul>
-                    <li>Sumiku (<NavLink to='/about/profile/sumiku'>Info</NavLink>)</li>
+                    <li>Kim (<NavLink to='/about/profile/kim'>Info</NavLink>)</li>
                 </ul>
                 </div>
 
                 <div>
                 <p className='teamCategory'>Web Master<span>(1)</span>:</p>
                 <ul>
-                    <li>Sumiku (<NavLink to='/about/profile/sumiku'>Info</NavLink>)</li>
+                    <li>Kim (<NavLink to='/about/profile/kim'>Info</NavLink>)</li>
                 </ul>
                 </div>
 
