@@ -36,6 +36,8 @@ import AnimationSkillComponent from './components/sideComponent/about/skills/ski
 import LevelDesignerSkillComponent from './components/sideComponent/about/skills/skillProfile/lvlDesign.skill.component';
 import SoundSkillComponent from './components/sideComponent/about/skills/skillProfile/sound.skill.component';
 import VoiceSkillComponent from './components/sideComponent/about/skills/skillProfile/voice.skill.component';
+import NemoNPCComponent from './components/sideComponent/characters/npcs/nemo/nemo.npc.component';
+import JakobProfileComponent from './components/sideComponent/about/profiles/personalprofile/jakob.profile.component';
 
 
 function App() {
@@ -56,6 +58,7 @@ function App() {
 
             <Route exact path='/about/profile/empty' component={ProfileComponent} />
             <Route exact path='/about/profile/kim' component={SumikuProfileComponent} />
+            <Route exact path='/about/profile/jakob' component={JakobProfileComponent} />
 
             <Route exact path='/skill/writing' component={WritingSkillComponent} />
             <Route exact path='/skill/programming' component={ProgrammingSkillComponent} />
@@ -68,6 +71,9 @@ function App() {
 
 
             <Route exact path='/characters' component={CharacterComponent} />
+
+            <Route exact path='/characters/nemo' component={NemoNPCComponent} />
+
             <Route exact path='/contact' component={ContactComponent} />
             <Route exact path='/news' component={NewsComponent} />
             <Route exact path='/status' component={StatusComponent} />

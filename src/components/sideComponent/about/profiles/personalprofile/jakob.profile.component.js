@@ -2,11 +2,11 @@
 import React, { useContext, useEffect } from 'react';
 
 // Styles:
-import './profile.style.css'
+import './../profile.style.css'
 
 
 
-const ProfileComponent = () => {
+const JakobProfileComponent = () => {
     useEffect(() => {
         window.scrollTo(0, 0)
     },[])
@@ -19,7 +19,7 @@ const ProfileComponent = () => {
             </div>
 
             <div className='underheadline'>
-                <p>Welcome to -name- profile  </p>
+                <p>Welcome to Jakob's profile  </p>
             </div>
 
             <div className='profileContent'>
@@ -29,22 +29,25 @@ const ProfileComponent = () => {
                     <div className = 'uppertextcontent'>
                         <div className = 'textInProfileData'>
                         <p className ='question' >Name:</p>
-                        <p className = 'info'>-Name-</p>
+                        <p className = 'info'>Jakob</p>
                         <p className ='question'>Age:</p>
-                        <p className = 'info'> -Age-</p>
+                        <p className = 'info'> 27</p>
                         <p className ='question'>From:</p>
-                        <p className = 'info'> -from-</p>
+                        <p className = 'info'> Denmark</p>
                         <p className ='question'>Skills:</p>
-                        <p className = 'info'>-Skills-</p>
+                        <p className = 'info'>Music Producer-Composer (FL Studio)</p>
+                        <p className = 'info'>Web Programming (HTML, CSS, React, MongoDB)</p>
                         <p className ='question'>Focus Area(s) in this Development:</p>
-                        <p className = 'info'>-Focus-</p>
+                        <p className = 'info'>- Game sounds</p>
+                        <p className = 'info'>- Recordings</p>
+                        <p className = 'info'>- Music</p>
                         <p className ='question'>Contact:</p>
-                        <p className = 'info'>-Contact-</p>
+                        <p className = 'info'>yahkobproductions@gmail.com</p>
                         </div>
                     </div>
 
                     <div className = 'upperimgcontent'>
-                        <img src={require('../../../../assets/team/unknown.jpg')} alt=""/>
+                        <img src={require('../../../../../assets/team/jakob.jpg')} alt=""/>
                     </div>
                 </div>
 
@@ -52,7 +55,7 @@ const ProfileComponent = () => {
 
                 <div className = 'profileMeatText'>
                     <p className = 'profileHeadline'>Profile:</p>
-                    <p className = 'profileText'>-Profile Text-</p>
+                    <p className = 'profileText'>Comming Soon</p>
                 </div>
 
             </div>
@@ -61,4 +64,4 @@ const ProfileComponent = () => {
 
 }
 
-export default ProfileComponent
+export default JakobProfileComponent

@@ -1,0 +1,181 @@
+.npcStyle {
+    width: 85%;
+    min-height: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.npcStyle .npcBottomContent,
+.npcStyle .npcTopContent {
+    width:100%;
+    border-left: 20px solid #834346;
+    border-bottom: 20px solid #834346;
+    font-size: 30px;
+    line-height: 1.5;
+    background-color: rgb(180, 182, 190);
+    border-radius: 25px;
+    text-align: center;
+    margin: 40px 0;
+    justify-content: space-between;
+    padding:50px;
+}
+
+
+.npcStyle .npcTopContent .textNPCHolder {
+    width:50%;
+    text-align: left;
+    border: 2px solid rgba(0, 0, 0, 0.274);
+    border-radius: 25px;
+}
+
+.npcStyle .npcTopContent .textNPCHolder .labelNPC {
+    font-weight: bolder;
+    font-size: 32px;
+    padding-left:30px;
+}
+
+.npcStyle .npcTopContent .textNPCHolder .labelNPCcontent {
+    padding-left:30px;
+    padding-bottom: 10px;
+}
+
+.npcStyle .npcTopContent .imgHolderNpcs {
+    width:50%;
+}
+
+
+.npcStyle .npcBottomContent .npcFanOptions {
+    text-align: center;
+    border-bottom: 5px solid #568248;
+
+}
+
+.npcStyle .npcBottomContent .npcFanOptions .npcOptionsdesign {
+    width: 15%;
+    cursor: pointer;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-right:5px;
+}
+
+.npcStyle .npcBottomContent .npcFanOptions .npcOptionsdesign.show {
+    background-color: #568248;
+}
+
+.npcStyle .npcBottomContent .npcFanOptions .npcOptionsdesign.hide{
+    background-color: none;
+    border: 2px solid black;
+    border-bottom: none;
+}
+
+.npcStyle .npcBottomContent .npcContent.show {
+    display:block
+}
+
+.npcStyle .npcBottomContent .npcContent.hide {
+    display:none
+}
+
+.npcStyle .npcBottomContent .npcContent {
+    padding-top:30px;
+    text-align: left;
+}
+
+.npcStyle .npcBottomContent .imgNpcGalleri {
+    border-top: 2px solid rgba(0, 0, 0, 0.315);
+    margin-top:30px;
+}
+
+.npcStyle .npcBottomContent .imgGalleriGruppe {
+    width:90%;
+    margin:0 auto;
+    flex-wrap: wrap;
+}
+
+
+.npcStyle .npcBottomContent .imgGalleriGruppe .imgGalleriNpcHolder {
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(155, 155, 155);
+    margin:5px;
+    overflow: hidden;
+
+}
+
+.npcStyle .npcBottomContent .imgGalleriGruppe .imgGalleriNpcHolder img {
+    width:100%;
+    min-height:100%;
+    cursor: pointer;
+}
+.npcStyle .imgNpcGalleri .imgNpcGalleriInfo {
+    width:60%;
+    justify-content: space-between;
+    margin: 30px 0;
+
+}
+
+
+.npcStyle .imgNpcGalleri .imgNpcGalleriInfo strong {
+    display: block;
+}
+
+.npcStyle .ligthboxforNpcGalleri {}
+
+
+.npcStyle .ligthboxforNpcGalleri.hide {
+    display: none;
+}
+
+
+.npcStyle .ligthboxforNpcGalleri.show {
+    display: block;
+    width:100%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.746);
+    position: fixed;
+    top:0;
+    left:0;
+
+}
+
+
+.npcStyle .ligthboxforNpcGalleri div {
+    position: relative;
+    top:50px;
+    left:50%;
+
+    width:50%;
+    
+    
+}
+
+.npcStyle .ligthboxforNpcGalleri img {
+    max-height: 900px;
+    transform: translateX(-50%);
+    max-width:100%;
+}
+
+.npcStyle .ligthboxforNpcGalleri .npcGalleriCloser {
+    font-size: 64px;
+    color:white;
+    position: absolute;
+    top:50px;
+    right:0;
+    z-index: 100;
+    
+
+    background-color: black;
+    padding:30px;
+    border-radius: 25px;
+
+    opacity: 0.5;
+
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.npcStyle .ligthboxforNpcGalleri .npcGalleriCloser:hover {
+    opacity: 1;
+    text-shadow: 0px 0px 15px rgb(255, 230, 0);
+}

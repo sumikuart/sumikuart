@@ -23,6 +23,7 @@ const VoiceSkillComponent = () => {
             <div className='skillContent'> 
                 <p className='smallHeadline'>Voice Acting</p>
                 <p>Currently on the team:</p>
+                <p>- Jakob (Manager)</p>
                 <p>- Kim (currently unassigned)</p>
                 <p>Currently members need: Not Specified</p>
                 <p>-</p>

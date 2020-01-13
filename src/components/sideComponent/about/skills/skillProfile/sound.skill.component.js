@@ -23,7 +23,8 @@ const SoundSkillComponent = () => {
             <div className='skillContent'> 
                 <p className='smallHeadline'>Music & Sound</p>
                 <p>Currently on the team:</p>
-                <p>- Kim (This is hope fully temporary, and i will leave, when better people joins)</p>
+                <p>- Jakob (Manager)</p>
+                <p>- Kim (Only here to give Opinions)</p>
                 <p>Currently members need: Not Specified</p>
                 <p>-</p>
                 <p>Are you handy with making music?</p>

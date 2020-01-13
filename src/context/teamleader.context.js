@@ -9,8 +9,8 @@ const LeaderContextProvider = (props) => {
         {subject:'3D Graphics',name:'Not Assigned Yet',img:'unknown.jpg','link':'empty' },
         {subject:'Designer',name:'Not Assigned Yet',img:'unknown.jpg','link':'empty' },
         {subject:'Writer',name:'Not Assigned Yet',img:'unknown.jpg','link':'empty' },
-        {subject:'Music & Sounds',name:'Not Assigned Yet',img:'unknown.jpg','link':'empty' },
-        {subject:'Voice Acting',name:'Not Assigned Yet',img:'unknown.jpg','link':'empty' },
+        {subject:'Music & Sounds',name:'Jakob',img:'jakob.jpg','link':'jakob' },
+        {subject:'Voice Acting',name:'Jakob',img:'jakob.jpg','link':'jakob' },
         {subject:'Programmer',name:'Kim',img:'sumiku.jpg','link':'kim' }, 
         {subject:'Web',name:'Kim',img:'sumiku.jpg','link':'kim'},
         {subject:'Producer',name:'Kim',img:'sumiku.jpg','link':'kim'}

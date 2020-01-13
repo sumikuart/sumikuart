@@ -117,6 +117,7 @@ const AboutComponent = () => {
                 <div>
                 <p className='teamCategory'>Music & Sound<span>(1)</span>:</p>
                 <ul>
+                    <li>Jakob  (manager) (<NavLink to='/about/profile/jakob'>Info</NavLink>)</li>
                     <li>Kim (<NavLink to='/about/profile/kim'>Info</NavLink>)</li>
                 </ul>
                 </div>
@@ -124,6 +125,7 @@ const AboutComponent = () => {
                 <div>
                 <p className='teamCategory'>Voice Acting<span>(1)</span>:</p>
                 <ul>
+                    <li>Jakob  (manager) (<NavLink to='/about/profile/jakob'>Info</NavLink>)</li>
                     <li>Kim (<NavLink to='/about/profile/kim'>Info</NavLink>)</li>
                 </ul>
                 </div>

@@ -4,3 +4,77 @@
     margin: 0 auto;
     text-align: left;
 }
+
+.characterStyle .charecterSelectContent {
+    border-radius: 25px;
+    border-left: 20px solid #834346;
+    border-bottom: 20px solid #834346;
+    text-align: center;
+    background-color: rgb(180, 182, 190);
+    margin: 50px 0;
+}
+
+.characterStyle .charecterSelectContent .topper {
+    padding-top:50px;
+}
+
+.characterStyle .charecterSelectContent .charecterTitle {
+    text-align: left;
+    border-bottom: 2px solid black;
+    width:30%;
+    font-size: 36px;
+    margin-left:30px;
+}
+
+.characterStyle .charecterSelectContent .groupeMiko {
+    margin:30px;
+}
+
+.characterStyle .charecterSelectContent .groupeMiko .npcContainer {
+    width:20%;
+    cursor: pointer;
+    position: relative;
+    top:0px;
+    left:0px;
+
+    margin:30px;
+}
+
+.characterStyle .charecterSelectContent .groupeMiko .npcContainer img {
+    filter: brightness(30%);
+    width:100%;
+    transition: 0.5s;
+    border: 2px solid black;
+  }
+
+  .characterStyle .charecterSelectContent .groupeMiko .npcContainer:hover img {
+    filter: brightness(100%);
+  }
+
+
+  .characterStyle .charecterSelectContent .groupeMiko .npcContainer  .npcContainerName {
+    position: absolute;
+    text-align: center;
+    bottom:20px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size:28px;
+    transition: 0.5s;
+    opacity: 0;
+
+    font-weight: bolder;
+    background-color: #7A7EA0;
+    padding:10px;
+    border-radius: 25px;
+
+    color:white;
+    text-shadow: 0px 0px 15px rgb(255, 230, 0);
+
+    width: 95%;
+    border-bottom: 2px solid black;
+    margin: 0 auto;
+  }
+
+  .characterStyle .charecterSelectContent .npcContainer:hover .npcContainerName {
+    opacity: 1;
+  }

@@ -12,11 +12,11 @@ const ArtComponent = () => {
         <div className='artcomponentstyle'>
 
             <div className='headline'>
-                <p>Images & Art</p>
+                <p>Images, Sound & Art</p>
             </div>
 
             <div className='underheadline'>
-                <p>Concept Art, Images & ingame pictures</p>
+                <p>Concept Art, Images, Music & in-game pictures</p>
             </div>
 
         </div>

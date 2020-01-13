@@ -1,5 +1,5 @@
 // Main:
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 
 // Styles:
 import './../profile.style.css'
@@ -8,6 +8,11 @@ import './../profile.style.css'
 
 const SumikuProfileComponent = () => {
     
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    },[])
+
+
     return (
         <div className='profileComponentstyle'>
 
@@ -29,6 +34,8 @@ const SumikuProfileComponent = () => {
                         <p className = 'info'>Kim</p>
                         <p className ='question'>Age:</p>
                         <p className = 'info'> 30 </p>
+                        <p className ='question'>From:</p>
+                        <p className = 'info'>Denmark</p>
                         <p className ='question'>Skills:</p>
                         <p className = 'info'>Web Programming (HTML, CSS, React, MongoDB)</p>
                         <p className = 'info'>Programmin principles (An understanding for the logic behind programming) </p>
@@ -37,7 +44,7 @@ const SumikuProfileComponent = () => {
                         <p className = 'info'>Writing (World-Building, stories) </p>
                         <p className ='question'>Focus Area(s) in this Development:</p>
                         <p className = 'info'>Curretly:</p>
-                        <p className = 'info'> - Everything</p>
+                        <p className = 'info'> - Everything, except Sound.</p>
                         <p className = 'info'>My Goal is to primary focus on:</p>
                         <p className = 'info'> - Mangement of the Project / Putting it all together.</p>
                         <p className = 'info'> - Programming</p>
@@ -45,7 +52,7 @@ const SumikuProfileComponent = () => {
                         <p className = 'info'> - Design of Charecters, Artifacts and places. </p>
                         <p className = 'info'> I hope to Share these Focus points with others. (more people on one subject can make it better)</p>
                         <p className ='question'>Contact:</p>
-                        <p className = 'info'>Working on that</p>
+                        <p className = 'info'>sumikuartofficial@gmail.com</p>
                         </div>
                     </div>
 
