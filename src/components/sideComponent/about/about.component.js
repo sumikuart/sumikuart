@@ -115,7 +115,7 @@ const AboutComponent = () => {
                 </ul>
                 </div>
                 <div>
-                <p className='teamCategory'>Music & Sound<span>(1)</span>:</p>
+                <p className='teamCategory'>Music & Sound<span>(2)</span>:</p>
                 <ul>
                     <li>Jakob  (manager) (<NavLink to='/about/profile/jakob'>Info</NavLink>)</li>
                     <li>Kim (<NavLink to='/about/profile/kim'>Info</NavLink>)</li>
@@ -123,7 +123,7 @@ const AboutComponent = () => {
                 </div>
 
                 <div>
-                <p className='teamCategory'>Voice Acting<span>(1)</span>:</p>
+                <p className='teamCategory'>Voice Acting<span>(2)</span>:</p>
                 <ul>
                     <li>Jakob  (manager) (<NavLink to='/about/profile/jakob'>Info</NavLink>)</li>
                     <li>Kim (<NavLink to='/about/profile/kim'>Info</NavLink>)</li>

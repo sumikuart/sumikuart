@@ -1,5 +1,5 @@
 // Main:
-import React, { useContext } from 'react';
+import React, { useState, useContext } from 'react';
 import { NavLink } from "react-router-dom";
 
 // Styles:
@@ -7,10 +7,41 @@ import './home.style.css'
  
 // img
 import homebanner from '../../../assets/home/homebanner.jpg'
+
+import homebanner2 from '../../../assets/home/homebanner2.jpg'
+
 import blood from '../../../assets/home/blood.jpg'
 
 const HomeComponent = () => {
 
+    const [homeImageSliderPos ,setHomeImageSliderPos] = useState('homeBannerPos')
+    const [homeBannerPos, setHomeBannerPos] = useState(1)
+    const [numberOfImgInHomeBanner, setNumberOfImgInHomeBanner] = useState(2)
+
+    const moveHomeBannerLeft  = () => {
+        if(homeBannerPos == numberOfImgInHomeBanner){
+            setHomeBannerPos(1)
+        } else {
+            setHomeBannerPos(homeBannerPos+1)
+        }
+    
+    }
+
+    const moveHomeBannerRight  = () => {
+
+    if(homeBannerPos == 1){
+        setHomeBannerPos(numberOfImgInHomeBanner)
+    } else {
+        setHomeBannerPos(homeBannerPos-1)
+    }
+
+
+    }
+
+    const setPositionInBannerByDot = (pos) => {
+        setHomeBannerPos(pos)
+    }
+ 
     return (
         <div className='homestyle'>
 
@@ -23,7 +54,24 @@ const HomeComponent = () => {
             </div>
 
             <div className='homeimgholder'>
-                <img src={homebanner} alt="" />
+                <div className='homeBannerLeftArrow' onClick={moveHomeBannerLeft}>
+                    <p>&#60;</p>
+                </div>
+
+                <div className={'homeimgbannerMover ' + (homeImageSliderPos+homeBannerPos)}>
+                    <img src={homebanner2} alt="" className='homeBannerBasePos1'/>
+                    <img src={homebanner} alt="" className='homeBannerBasePos2'/>
+                </div>
+
+                <div className='homeBannerRightArrow' onClick={moveHomeBannerRight}>
+                    <p>&#62;</p>
+                </div>
+
+                <div className='homeBannerPositionDots'>
+                    <div className='homePositionDotDiv' onClick={()=>setPositionInBannerByDot(1)}></div>
+                    <div className='homePositionDotDiv' onClick={()=>setPositionInBannerByDot(2)}></div>
+                </div>
+
             </div>
 
 

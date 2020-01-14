@@ -4,3 +4,171 @@
     margin: 0 auto;
     text-align: left;
 }
+
+.artcomponentstyle .mainArtContent{
+    width: 100%;
+    border-left: 20px solid #834346;
+    border-bottom: 20px solid #834346;
+    font-size: 28px;
+    background-color: rgb(180, 182, 190);
+    margin:30px;
+}
+
+.artcomponentstyle .mainArtContent .spacerArt{
+    padding: 40px 0;
+}
+
+.artcomponentstyle .mainArtContent .artCategorySelector {
+    text-align: center;
+}
+
+
+.artcomponentstyle .mainArtContent .artCategorySelector div {
+    width:33.33%;
+    padding:10px 20px;
+    border: 5px solid black;
+    border-bottom: none;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    cursor: pointer;
+}
+
+.artcomponentstyle .mainArtContent .artCategorySelector div:nth-of-type(1).show {
+    border-left:none;
+    border-top-left-radius: 0px;
+}
+.artcomponentstyle .mainArtContent .artCategorySelector div.show{
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.artcomponentstyle .mainArtContent .artCategorySelector div.hide{
+    border-bottom: 2px solid black;
+    background-color: rgb(131, 132, 136);
+
+}
+
+
+
+.artcomponentstyle .mainArtContent .artSelectedContent {
+    margin:50px;
+}
+
+.artcomponentstyle .mainArtContent .artSelectedContent div.show{
+    display: block;
+}
+
+.artcomponentstyle .mainArtContent .artSelectedContent div.hide{
+    display: none;
+}
+
+
+.artcomponentstyle .mainArtContent .artSelectedContent .artFolderTitle {
+    font-weight: bolder;
+    text-decoration: underline;
+    margin: 20px 0;
+    margin-left:30px;
+    font-size: 42px;
+}
+.artcomponentstyle .mainArtContent .uploadArtDivImg {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.349);
+    padding-bottom: 50px;
+}
+
+
+.artcomponentstyle .mainArtContent .uploadArtDivImg .infoImgDiv {
+    justify-content: space-between;
+    text-align: center;
+}
+.artcomponentstyle .mainArtContent .uploadArtDivImg .infoImgDiv p {
+    width:20%;
+}
+
+.artcomponentstyle .mainArtContent .uploadArtDivImg .infoImgDiv p strong {
+    display: block;
+}
+
+.artcomponentstyle .mainArtContent .uploadArtDivImg .theImgDiv {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top:20px;
+}
+
+.artcomponentstyle .mainArtContent .uploadArtDivImg .theImgDiv .artImgFrame {
+    border:2px solid black;
+    width: 16%;
+    height:200px;
+    background-color: rgb(131, 132, 136);
+    overflow: hidden;
+
+}
+
+.artcomponentstyle .mainArtContent .uploadArtDivImg .theImgDiv .artImgFrame img{
+    width:100%;
+    display: block;
+    min-height:100%;
+    cursor: pointer;
+}
+
+.artcomponentstyle .mainArtContent .artImgLightbox.show {
+    width:100%;
+    height:100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: rgba(0, 0, 0, 0.603);
+    z-index: 6464;
+}
+
+.artcomponentstyle .mainArtContent .artImgLightbox.hide{
+    display:none;
+} 
+
+
+.artcomponentstyle .mainArtContent .artImgLightbox .closeChosenArtImage {
+    cursor: pointer;
+    padding:30px;
+    border: 4px solid white;
+    position: absolute;
+    top:0;
+    left:50%;
+    transform:translateX(-50%);
+    width:150px;
+    background-color: rgba(0, 0, 0, 0.795);
+    z-index: 7000;
+transition: 0.5s;
+}
+
+.artcomponentstyle .mainArtContent .artImgLightbox .closeChosenArtImage p {
+    color:white;
+    font-size: 64px;
+    text-align: center;
+}
+
+.artcomponentstyle .mainArtContent .artImgLightbox .closeChosenArtImage:hover p {
+    text-shadow: 0px 0px 15px rgb(255, 230, 0);
+}
+
+.artcomponentstyle .mainArtContent .artImgLightbox .lightboxImgHolder {
+    width:50%;
+    position: relative;
+    top:0;
+    left:0;
+}
+
+.artcomponentstyle .mainArtContent .artImgLightbox .lightboxImgHolder img{
+
+    max-height: 900px;
+    max-width:100%;
+
+    position: absolute;
+    top:100px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.artcomponentstyle .mainArtContent .artImgLightbox  .lightboxtextHolder{
+    width:50%;
+    background-color: rgba(0, 0, 0, 0.795);
+    height: 100vh;
+}
