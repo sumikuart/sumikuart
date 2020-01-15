@@ -26,6 +26,14 @@
     margin-left:30px;
 }
 
+.characterStyle .charecterSelectContent .charecterDescription {
+  text-align: left;
+  font-size:24px;
+  margin-left:30px;
+  margin-top:10px;
+  font-style: italic;
+}
+
 .characterStyle .charecterSelectContent .groupeMiko {
     margin:30px;
 }

@@ -23,6 +23,8 @@
     height: 100%;
 
     font-family: 'Baskervville';
+
+    border-top: 2px solid black;
 }
 
 .flex {

@@ -126,9 +126,6 @@
 }
 
 
-.statusStyle .statusprimecontent .masterStatusDiv.overview .textStatusDiv .statusPerson {
-    padding-top:5px;   
-}
 
 .statusStyle .statusprimecontent .masterStatusDiv.overview .textStatusDiv .StatusDone {  
 
@@ -153,7 +150,7 @@
 
 
 
-.statusStyle .statusprimecontent .masterStatusDiv .textStatusDiv .StatusDone.focus {
+.statusStyle .statusprimecontent .masterStatusDiv .textStatusDiv .StatusDone.high {
     background-color: #4B4B8B;
 }
 

@@ -38,6 +38,8 @@ import SoundSkillComponent from './components/sideComponent/about/skills/skillPr
 import VoiceSkillComponent from './components/sideComponent/about/skills/skillProfile/voice.skill.component';
 import NemoNPCComponent from './components/sideComponent/characters/npcs/nemo/nemo.npc.component';
 import JakobProfileComponent from './components/sideComponent/about/profiles/personalprofile/jakob.profile.component';
+import NewsContextProvider from './context/news.context';
+import ArchiveComponent from './components/sideComponent/news/Archive/archive.component';
 
 
 function App() {
@@ -46,6 +48,7 @@ function App() {
 
       <Router>
         <LeaderContextProvider>
+          <NewsContextProvider>
 
             <header>
               <NavigationsBar />
@@ -75,7 +78,10 @@ function App() {
             <Route exact path='/characters/nemo' component={NemoNPCComponent} />
 
             <Route exact path='/contact' component={ContactComponent} />
-            <Route exact path='/news' component={NewsComponent} />
+
+            <Route path='/news' component={NewsComponent} />
+        
+
             <Route exact path='/status' component={StatusComponent} />
             <Route exact path='/story' component={SynopsisComponent} />
             <Route exact path='/art' component={ArtComponent} />
@@ -87,6 +93,7 @@ function App() {
               <FooterComponent />
             </footer>
             
+            </NewsContextProvider>
             </LeaderContextProvider>
 
       </Router>

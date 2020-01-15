@@ -102,6 +102,7 @@
 .navigationStyle .contentbox ul {
     justify-content: space-between;
     border: 2px solid black;
+    align-items:center;
 
 }
 

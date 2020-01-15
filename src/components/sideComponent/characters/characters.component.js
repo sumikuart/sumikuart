@@ -1,9 +1,10 @@
 // Main:
 import React, { useContext } from 'react';
+import { NavLink } from 'react-router-dom';
 
 // Styles:
 import './characters.style.css'
-import { NavLink } from 'react-router-dom';
+
 
 
 
@@ -25,7 +26,7 @@ const CharacterComponent = () => {
                 <p className='smallHeadline topper'> NPC's</p>
 
                 <p className='charecterTitle'>Miko's</p>
-
+                <p className='charecterDescription'>A Groupe of people, one for each god. who has been granted special powers</p>
                 <div className='groupeMiko flex'>
 
                     <div className='npcContainer'>

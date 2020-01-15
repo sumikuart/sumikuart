@@ -1,6 +1,6 @@
 .artcomponentstyle {
     width: 85%;
-    min-height: 400px;
+    min-height: 100vh;
     margin: 0 auto;
     text-align: left;
 }
@@ -24,7 +24,7 @@
 
 
 .artcomponentstyle .mainArtContent .artCategorySelector div {
-    width:33.33%;
+    width: 33.33%;
     padding:10px 20px;
     border: 5px solid black;
     border-bottom: none;
@@ -37,6 +37,11 @@
     border-left:none;
     border-top-left-radius: 0px;
 }
+.artcomponentstyle .mainArtContent .artCategorySelector div:nth-of-type(3).show {
+    border-right:none;
+    border-top-right-radius: 0px;
+}
+
 .artcomponentstyle .mainArtContent .artCategorySelector div.show{
     font-weight: bolder;
     font-size: 32px;
@@ -116,6 +121,8 @@
     position: fixed;
     top:0;
     left:0;
+    overflow: auto;
+
     background-color: rgba(0, 0, 0, 0.603);
     z-index: 6464;
 }
@@ -130,18 +137,18 @@
     padding:30px;
     border: 4px solid white;
     position: absolute;
-    top:0;
-    left:50%;
+    top:20px;
+    left:95%;
     transform:translateX(-50%);
-    width:150px;
-    background-color: rgba(0, 0, 0, 0.795);
+    width:100px;
+    background-color: rgba(0, 0, 0, 0.822);
     z-index: 7000;
-transition: 0.5s;
+    transition: 0.5s;
 }
 
 .artcomponentstyle .mainArtContent .artImgLightbox .closeChosenArtImage p {
     color:white;
-    font-size: 64px;
+    font-size: 32px;
     text-align: center;
 }
 
@@ -149,11 +156,26 @@ transition: 0.5s;
     text-shadow: 0px 0px 15px rgb(255, 230, 0);
 }
 
+
+.artcomponentstyle .mainArtContent .artImgLightbox .leftArtLightbox {
+    position: relative;
+    top:100px;
+    left:0;
+    width:65%;
+}
+
+.artcomponentstyle .mainArtContent .artImgLightbox .leftArtRightbox {
+    width:35%;
+}
+
+
 .artcomponentstyle .mainArtContent .artImgLightbox .lightboxImgHolder {
-    width:50%;
+    width:100%;
     position: relative;
     top:0;
-    left:0;
+    left:50%;
+    
+    
 }
 
 .artcomponentstyle .mainArtContent .artImgLightbox .lightboxImgHolder img{
@@ -161,14 +183,99 @@ transition: 0.5s;
     max-height: 900px;
     max-width:100%;
 
-    position: absolute;
-    top:100px;
-    left:50%;
     transform:translateX(-50%);
+    border: 3px solid white;
 }
 
-.artcomponentstyle .mainArtContent .artImgLightbox  .lightboxtextHolder{
-    width:50%;
+.artcomponentstyle .mainArtContent .artImgLightbox   .lightboxTextdata,  
+.artcomponentstyle .mainArtContent .artImgLightbox  .lightboxTextDec {
+    color:white;
+    border: 3px solid white;
+    max-width:100%;
     background-color: rgba(0, 0, 0, 0.795);
+    -webkit-box-shadow: 0px 10px 44px 0px rgba(255,242,0,1);
+    -moz-box-shadow: 0px 10px 44px 0px rgba(255,242,0,1);
+    box-shadow: 0px 10px 44px 0px rgba(255,242,0,1);
+    margin:30px;
+}
+
+
+
+.artcomponentstyle .mainArtContent .artImgLightbox  .lightboxTextDec .lightboxTextContent{
+    margin-left:100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.artcomponentstyle .mainArtContent .artImgLightbox   .lightboxTextdata  {
+    font-weight: normal;
+    font-size: 24px;
+    margin-top: 10px;
+    
+}
+
+.artcomponentstyle .mainArtContent .artImgLightbox   .lightboxTextdata p {
+    margin-left:100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.artcomponentstyle .mainArtContent .artImgLightbox   .lightboxTextdata ul {
+    font-size: 20px;
+    margin-left:100px;
+    margin-bottom: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.artcomponentstyle .mainArtContent .artImgLightbox   .lightboxTextdata ul li {
+    width:50%;
+    text-shadow: 0px 0px 15px rgb(255, 230, 0); 
+    margin-bottom: 10px;
+}
+
+
+
+.artcomponentstyle .mainArtContent .artImgLightbox  .lightboxtextHolder{
+    width:100%;
     height: 100vh;
 }
+
+.artcomponentstyle .mainArtContent .artImgLightbox  .lightboxtextHolder .lightboxText{
+    color:white;
+    border: 3px solid white;
+    margin-right:100px;
+    margin-top:100px;
+    background-color: rgba(0, 0, 0, 0.795);
+    -webkit-box-shadow: 0px 10px 44px 0px rgba(255,242,0,1);
+    -moz-box-shadow: 0px 10px 44px 0px rgba(255,242,0,1);
+    box-shadow: 0px 10px 44px 0px rgba(255,242,0,1);
+    }
+
+.artcomponentstyle .mainArtContent .artImgLightbox  .lightboxtextHolder .lightboxText p {
+    margin:40px;  
+    text-shadow: 0px 0px 15px rgb(255, 230, 0);  
+}
+
+.artcomponentstyle .mainArtContent .artImgLightbox  .lightboxtextHolder .lightboxText .lightboxTextContentName {
+    font-size: 64px;
+    margin:0px;  
+    margin-left:40px;
+    margin-top:50px;
+}
+
+.artcomponentstyle .mainArtContent .artImgLightbox  .lightboxtextHolder .lightboxText .lightboxTextContentTag {
+    margin:0px;  
+    margin-left:40px;
+    margin-bottom:50px;
+    font-style: italic;
+}
+
+
+
+.artcomponentstyle .mainArtContent .artImgLightbox  .lightboxtextHolder .lightboxText .lightboxHeadline {
+    font-weight: bolder;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
