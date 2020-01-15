@@ -69,7 +69,7 @@ const StatusComponent = () => {
                         <div className='statusDate'> <p>05-01-2020</p></div>
                         <div className='statusDate'> <p>19-01-2020</p></div>
                         <div className='statusPerson'> <NavLink to='/about/profile/kim'>Kim</NavLink></div>
-                        <div className='StatusDone high'>  <p>High</p></div>
+                        <div className='StatusDone medium'>  <p>Medium</p></div>
                     </div>
                 </div>
 

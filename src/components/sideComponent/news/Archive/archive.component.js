@@ -17,8 +17,14 @@ const ArchiveComponent = (props) => {
 
     const [chosenNews, setChosenNews] = useState('')
 
-    useEffect(() =>{
-        setChosenNews(props.artikelWant)
+    useEffect(() => {
+        for(var i=0; i < news.length; i++){
+            if(news[i].id === props.artikelWant) {
+                setChosenNews(i)
+                console.log(i)
+            }
+        }
+
     })
 
 
@@ -26,18 +32,32 @@ const ArchiveComponent = (props) => {
 
         return(
             <div>
-
+                <p>loading</p>
             </div>
         )
 
     } else {
 
-    
-
-    
     return (
         <div className='archiveStyle'>
-            <p>{news[chosenNews].name}</p>
+            <p className="newsHeadline">{news[chosenNews].name} </p>
+            
+            <div className='flex newsSubline'>
+            <p className="newsTagline">{news[chosenNews].tag}</p>
+            <p className="newsDate">(uploaded: {news[chosenNews].date})</p>
+            </div>
+
+
+            <div className='flex'>
+                <div className='articelNewsTextContainer'>
+                    <p className="newsContent" >{news[chosenNews].content}</p>
+                    <NavLink to={news[chosenNews].link} className="newsLink" >{news[chosenNews].linkText}</NavLink>
+                </div>
+                <div className='articelNewsImgContainer'>
+                    <img src={require('../../../../assets/news/'+news[chosenNews].img)} alt=""/>
+                </div>
+            </div>
+            
         </div>
     )
 

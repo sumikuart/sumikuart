@@ -21,7 +21,7 @@ const NavigationsBar = () => {
                 </div>
 
                 <ul  className='flex'>
-                    <li><div className="ball"></div><NavLink to='/news' className='navLiner'>NEWS</NavLink><div className="ball"></div></li>
+                    <li><div className="ball"></div><NavLink to='/artikels/news' className='navLiner'>NEWS</NavLink><div className="ball"></div></li>
                     <li><div className="ball"></div><NavLink to='/story'>Story & Features</NavLink><div className="ball"></div></li>
                     <li><div className="ball"></div><NavLink to='/art'>Game Media</NavLink><div className="ball"></div></li>
                     <li><div className="ball"></div><NavLink to='/characters' className='navLiner'>Characters</NavLink><div className="ball"></div></li>

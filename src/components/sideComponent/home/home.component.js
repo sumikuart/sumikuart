@@ -11,6 +11,7 @@ import homebanner from '../../../assets/home/homebanner.jpg'
 import homebanner2 from '../../../assets/home/homebanner2.jpg'
 
 import blood from '../../../assets/home/blood.jpg'
+import ArchiveComponent from '../news/Archive/archive.component';
 
 const HomeComponent = () => {
 
@@ -125,6 +126,10 @@ const HomeComponent = () => {
 
             </div>
 
+            <div className='archiveStyle newsHome'>
+                <NavLink to='/artikels/news' className='newsMetaHeadline'>NEWS</NavLink>
+            <ArchiveComponent artikelWant={'news'} />
+            </div>
 
             <div className='homebottomContent flex'>
 

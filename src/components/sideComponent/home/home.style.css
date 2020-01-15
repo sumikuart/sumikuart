@@ -221,6 +221,37 @@
     margin: 20px;
 }
 
+.homestyle .newsHome {
+    border-radius: 25px;
+    border-left: 20px solid #834346;
+    border-bottom: 20px solid #834346;
+    text-align: center;
+    background-color: rgb(180, 182, 190);
+    margin-top:60px;
+}
+
+
+.homestyle .newsHome .newsMetaHeadline {
+    font-size: 64px;
+    text-decoration: underline;
+}
+
+
+.homestyle .newsHome a.newsMetaHeadline  {
+    color:black;
+}
+
+
+.homestyle .newsHome .articelNewsImgContainer{
+    width:40%;
+}
+
+
+.homestyle .newsHome .articelNewsImgContainer img{
+    width:auto;
+    max-height: 500px;
+}
+
 .homestyle .homebottomContent {
     background-color: rgba(180, 182, 190, 0.767);
     margin: 100px 0;

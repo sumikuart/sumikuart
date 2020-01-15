@@ -29,18 +29,40 @@
 
 .newsStyle .newsContent .newsRightContent {
     width:30%;
-    height:300px;
+    height:500px;
     overflow: auto;
 }
 
 .newsStyle .newsContent .newsRightContent ul {
-margin-left:50px;
+margin-left:30px;
 
 }
 
 .newsStyle .newsContent .newsRightContent ul li {
     margin-top:10px;
+    padding: 10px 0;
 
+}
+
+.newsStyle .newsContent .newsRightContent ul li.currentNewLink{
+    list-style: none;
+    padding: 20px 0;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.newsStyle .newsContent .newsRightContent ul li.currentNewLink a {
+    font-weight: bolder;
+
+}
+
+.newsStyle .newsContent .newsRightContent ul li.currentNewLink a span {
+    display:block;
+    font-style: italic;
+}
+.newsStyle .newsContent .newsRightContent ul li.noListPoint {
+
+    list-style: none;
 }
 
 .newsStyle .newsContent .newsRightContent ul li .archiveLink {
