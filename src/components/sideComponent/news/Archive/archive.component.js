@@ -44,6 +44,11 @@ const ArchiveComponent = (props) => {
             
             <div className='flex newsSubline'>
             <p className="newsTagline">{news[chosenNews].tag}</p>
+            <p>|</p>
+            <div className="newsBy flex">
+            <p>Written by: </p>
+            <NavLink to={news[chosenNews].byLink}>{ news[chosenNews].by}</NavLink>
+            </div>
             <p className="newsDate">(uploaded: {news[chosenNews].date})</p>
             </div>
 

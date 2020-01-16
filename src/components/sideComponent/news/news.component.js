@@ -20,7 +20,7 @@ const NewsComponent = (props) => {
     useEffect(() => {
         console.log(props.match.params.chosenNews)
         setArtikelWant(props.match.params.chosenNews)
-            window.scrollTo(0, 0)
+            window.scrollTo(0, 0) 
 
     }, []);
 
@@ -63,11 +63,15 @@ const NewsComponent = (props) => {
                         <p className='smallHeadline'>News Archive:</p>
                         <ul>
                             <li className='currentNewLink'><NavLink className='archiveLink' data-id={'news'} to='/artikels/news' onClick={changeNews}>Current News <span>(Under Construction part 2)</span></NavLink></li>
-                            <li className='noListPoint'><p>January 2020:</p></li>
-                            <li><NavLink className='archiveLink' data-id={'2020janOne'} to='/artikels/2020janOne' onClick={changeNews}> 1. Under Construction part 1.</NavLink></li>
-                            <li><NavLink className='archiveLink' data-id={'2020janTwo'} to='/artikels/2020janTwo' onClick={changeNews}> 2. A New Member has emerged.</NavLink></li>
-                            <li><NavLink className='archiveLink' data-id={'news'} to='/artikels/news' onClick={changeNews}>3. Under Construction part 2. </NavLink></li>
                         </ul>
+                        <div className='scrollerNewsArchive'>
+                            <ul>
+                                <li className='noListPoint'><p>January 2020:</p></li>
+                                <li><NavLink className='archiveLink' data-id={'2020janOne'} to='/artikels/2020janOne' onClick={changeNews}> 1. Under Construction part 1.</NavLink></li>
+                                <li><NavLink className='archiveLink' data-id={'2020janTwo'} to='/artikels/2020janTwo' onClick={changeNews}> 2. A New Member has emerged.</NavLink></li>
+                                <li><NavLink className='archiveLink' data-id={'news'} to='/artikels/news' onClick={changeNews}>3. Under Construction part 2. </NavLink></li>
+                            </ul>
+                        </div>
 
                     </div>
                 </div>

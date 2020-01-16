@@ -1,6 +1,203 @@
 .contactstyle {
     width: 85%;
-    min-height: 400px;
+    min-height: 100vh;
     margin: 0 auto;
     text-align: left;
+} 
+
+.contactstyle .contactContent {
+    width: 100%;
+    border-left: 20px solid #834346;
+    border-bottom: 20px solid #834346;
+    font-size: 28px;
+    background-color: rgb(180, 182, 190);
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.contactstyle .contactContent .mainContactHeadline {
+    font-size: 52px;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+
+.contactstyle .contactContent .contactFormChoser {
+    padding-top:50px;
+    width:100%;
+    justify-content: space-evenly;
+}
+
+.contactstyle .contactContent .contactFormChoser div{
+    border: 3px solid black;
+    width:33.33%;
+    cursor: pointer;
+    text-align: center;
+    padding-top:20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+
+.contactstyle .contactContent .contactFormChoser div.show{
+    border-bottom: none;
+}
+
+.contactstyle .contactContent .contactFormChoser div.hide{
+    background-color: rgb(128, 128, 128);
+}
+
+.contactstyle .contactContent .contactFormChoser .firstinlineContact.show{
+    border-top-left-radius: 0px;
+    border-left:none;
+}
+
+.contactstyle .contactContent .contactFormChoser .lastinlineContact.show{
+    border-top-right-radius: 0px;
+    border-right:none;
+}
+
+.contactstyle .contactContent .fanContactForm {}
+
+
+.contactstyle .contactContent .joinContactForm {}
+
+
+.contactstyle .contactContent .otherContactForm {}
+
+.contactstyle .contactContent .fanContactForm.hide,
+.contactstyle .contactContent .joinContactForm.hide,
+.contactstyle .contactContent .otherContactForm.hide {
+    display: none;
+}
+
+.contactstyle .contactContent .fanContactForm.show,
+.contactstyle .contactContent .joinContactForm.show,
+.contactstyle .contactContent .otherContactForm.show {
+    display: block;
+}
+
+.contactstyle .contactContent .formHeadline {
+    text-align: center;
+    font-size: 52px;
+    margin-top:80px;
+}
+
+.contactstyle .contactContent .fanContactForm {
+    text-align: left;
+}
+
+.contactstyle .contactContent .fanContactForm .fanContactBorder {
+    border: 2px solid rgba(0, 0, 0, 0.199);
+    padding:50px;
+}
+
+.contactstyle .contactContent .fanContactForm .fanMailTextContent {
+    margin:50px;
+}
+
+
+.contactstyle .contactContent .fanContactForm .fanMailTextContent ol {
+    margin:50px 100px;
+    line-height: 2;
+}
+
+.contactstyle .contactContent .fanContactForm .fanMailTextContent ol ul {
+    margin-left: 50px;
+}
+.contactstyle .contactContent .fanContactForm .fanMailTextContent ol li span{
+    font-style: italic;
+}
+
+.contactstyle .contactContent .fanContactForm .fanContactCollection {
+    margin-top:20px;
+}
+
+.contactstyle .contactContent .fanContactForm .fanContactCollection .contactFanBusinesscard{
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.199);
+    margin-top:30px;
+    text-align: center;
+}
+
+.contactstyle .contactContent .fanContactForm .fanContactCollection .contactFanBusinesscard div{
+    justify-content: space-evenly;
+}
+
+
+.contactstyle .contactContent .fanContactForm .fanContactCollection .contactFanBusinesscard div{
+    margin:20px;
+}
+
+
+.contactstyle .contactContent .fanContactForm .fanContactCollection .contactFanBusinesscard .contactBusinesscardTopper {
+    text-align: center;
+    padding-top:50px;
+    font-weight: bolder;
+}
+.contactstyle .contactContent .fanContactForm .fanContactCollection .contactFanBusinesscard .headlineBusinesscard{
+    font-weight: bolder;
+}
+
+.contactstyle .contactContent .fanContactForm .fanContactCollection .contactFanBusinesscard .contentBusinesscard {
+    padding-bottom:50px;
+}
+
+
+.contactstyle .contactContent .joinContactForm {}
+
+.contactstyle .contactContent .joinContactForm .joinReadMe {
+    width:90%;
+    margin: 0 auto;
+    border: 2px solid rgba(0, 0, 0, 0.199);
+    line-height: 1.5;
+    padding:60px;
+    margin-bottom: 30px;
+}
+
+
+
+.contactstyle .contactContent .joinContactForm .joinReadMe .joinReadMeHeadline {
+    font-weight: bolder;
+    font-size: 28px;
+
+}
+
+.contactstyle .contactContent .joinContactForm .skillsContactDiv {
+    width:90%;
+    margin: 30px auto;
+    
+}
+
+.contactstyle .contactContent .joinContactForm .skillsContactDiv ul{
+
+    flex-wrap: wrap;
+}
+.contactstyle .contactContent .joinContactForm .skillsContactDiv ul li {
+    width:25%;
+    margin:30px;
+}
+
+.contactstyle .contactContent .joinContactForm .skillsContactDiv ul li a{
+    color:black;
+}
+
+.contactstyle .contactContent .joinContactForm  .stepJoinHeadlineContact {
+    margin-left:30px;
+    font-weight: bolder;
+    margin-top:20px;
+}
+
+.contactstyle .contactContent .joinContactForm  .pointsJoinHeadlineContact {
+    margin-left:70px; 
+}
+
+.contactstyle .contactContent .otherContactForm .otherContactContent {
+    text-align: center;
+    margin:50px;
+    line-height: 2;
+}
+
+.contactstyle .contactContent .otherContactForm .otherContactContent .underlineEmailInOtherContact {
+    text-decoration: underline;
 }

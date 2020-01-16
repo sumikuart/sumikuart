@@ -31,7 +31,7 @@ const SumikuProfileComponent = () => {
                     <div className = 'uppertextcontent'>
                         <div className = 'textInProfileData'>
                         <p className ='question' >Name:</p>
-                        <p className = 'info'>Kim</p>
+                        <p className = 'info'>Kim J. W.</p>
                         <p className ='question'>Age:</p>
                         <p className = 'info'> 30 </p>
                         <p className ='question'>From:</p>

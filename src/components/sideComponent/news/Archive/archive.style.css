@@ -16,7 +16,15 @@
 
 .archiveStyle .newsTagline{
     margin-left:30px;
-    font-size: 32px;
+    font-size: 38px;
+    margin-right:30px;
+}
+
+
+.archiveStyle  .newsBy {
+    margin-left:30px;
+    font-size: 28px;
+    text-align: right;
 }
 
 .archiveStyle .newsDate{

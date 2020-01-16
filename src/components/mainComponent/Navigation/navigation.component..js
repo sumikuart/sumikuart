@@ -27,7 +27,7 @@ const NavigationsBar = () => {
                     <li><div className="ball"></div><NavLink to='/characters' className='navLiner'>Characters</NavLink><div className="ball"></div></li>
                     <li><div className="ball"></div><NavLink to='/status'>Status</NavLink><div className="ball"></div></li>
                     <li><div className="ball"></div><NavLink to='/about'>About the Team</NavLink><div className="ball"></div></li>
-                    <li><div className="ball"></div><NavLink to='/contact'>Contacts </NavLink><div className="ball"></div></li>
+                    <li><div className="ball"></div><NavLink to='/contact'>Contact us</NavLink><div className="ball"></div></li>
                 </ul>
 
             </div>
