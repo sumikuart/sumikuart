@@ -10,7 +10,7 @@ import './navigation.style.css'
 const NavigationsBar = () => {
 
     return (
-        <div className='navigationStyle'>
+        <div className='navigationStyle' id='top'>
 
             <div className='designbox'></div>
 

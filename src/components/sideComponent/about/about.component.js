@@ -23,6 +23,25 @@ const AboutComponent = () => {
                 <p>Here you will finde everything about the team</p>
             </div>
 
+           
+
+            <div className='aboutTeamInfo'>
+            <p className='smallHeadline'>About the team</p>
+
+                <div className='content'>
+                <p>Welcome to the Development Team. (well its not a team yet, as i am the only one here)</p>
+                <p>This is a serious development team, put together with the goal of making the game: Kumik-3D (working title)</p>
+                <p>More info on the game here:</p>
+                <NavLink to='/story'>Story & Features</NavLink>
+                <p> - </p>
+                <p>Hopefully the Team will Grow, and evolve into a dedikated grupe of people</p>
+                <p>Working as a team, and working as friends.</p>
+
+                </div>
+
+
+            </div>
+
             <div className='aboutTeamNotice'>
                 <p className='smallHeadline'>People Wanted:</p>
                 <p>!!!! This is a Practice Project, witch mean that it's about evolving our skills, not about being the best !!!!</p>
@@ -46,24 +65,6 @@ const AboutComponent = () => {
 
                 <NavLink to='/contact'>Contact</NavLink>
             </div>
-
-            <div className='aboutTeamInfo'>
-            <p className='smallHeadline'>About the team</p>
-
-                <div className='content'>
-                <p>Welcome to the Development Team. (well its not a team yet, as i am the only one here)</p>
-                <p>This is a serious development team, put together with the goal of making the game: Kumik-3D (working title)</p>
-                <p>More info on the game here:</p>
-                <NavLink to='/story'>Story & Features</NavLink>
-                <p> - </p>
-                <p>Hopefully the Team will Grow, and evolve into a dedikated grupe of people</p>
-                <p>Working as a team, and working as friends.</p>
-
-                </div>
-
-
-            </div>
-
 
             <div className='aboutTeamManagers'>
                 <ManegerComponent />

@@ -39,7 +39,7 @@ import VoiceSkillComponent from './components/sideComponent/about/skills/skillPr
 import NemoNPCComponent from './components/sideComponent/characters/npcs/nemo/nemo.npc.component';
 import JakobProfileComponent from './components/sideComponent/about/profiles/personalprofile/jakob.profile.component';
 import NewsContextProvider from './context/news.context';
-import ArchiveComponent from './components/sideComponent/news/Archive/archive.component';
+
 
 
 function App() {

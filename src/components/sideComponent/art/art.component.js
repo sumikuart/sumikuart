@@ -49,11 +49,44 @@ const [selectedArtvid,setSelectedArtvid] = useState('hide')
         description: 'This is the feeling im looking, to give our playes. How to trust?, are they looking?', 
         dataMade:'Kim', 'dataUpload':'14-01-2020', 'dataCreated':'24-02-2012', 'dataType':'Concept Art', Npcs:'Unknown'},
 
+        // Uplaode 2
+
         {id:'uploadone-intherain', 
         name:'What have i done?',  
         tagline: 'i Wish i did not know!',  
         description: 'Nemo in the Rain, after an unspeakeble act', 
-        dataMade:'Kim','dataUpload':'14-01-2020', 'dataCreated':'04-01-2011', 'dataType':'Concept Art', Npcs:'Nemo Kurai'}
+        dataMade:'Kim','dataUpload':'14-01-2020', 'dataCreated':'04-01-2011', 'dataType':'Concept Art', Npcs:'Nemo Kurai'},
+
+        {id:'uploadtwo-model-one', 
+        name:'Nemo 3d Model v1',  
+        tagline: 'Under Construction',  
+        description: 'Nemo 3D model so far', 
+        dataMade:'Kim','dataUpload':'17-01-2020', 'dataCreated':'22-12-2019', 'dataType':'3D Art', Npcs:'Nemo Kurai'},
+
+        {id:'uploadtwo-model-two', 
+        name:'Nemo 3d Model v1',  
+        tagline: 'Under Construction',  
+        description: 'Nemo 3D model so far', 
+        dataMade:'Kim','dataUpload':'17-01-2020', 'dataCreated':'22-12-2019', 'dataType':'3D Art', Npcs:'Nemo Kurai'},
+
+        {id:'uploadtwo-model-three', 
+        name:'Nemo 3d Model v1',  
+        tagline: 'Under Construction',  
+        description: 'Nemo 3D model so far', 
+        dataMade:'Kim','dataUpload':'17-01-2020', 'dataCreated':'22-12-2019', 'dataType':'3D Art', Npcs:'Nemo Kurai'},
+
+        {id:'uploadtwo-model-four', 
+        name:'Nemo 3d Model v1',  
+        tagline: 'Under Construction',  
+        description: 'Nemo 3D model so far', 
+        dataMade:'Kim','dataUpload':'17-01-2020', 'dataCreated':'22-12-2019', 'dataType':'3D Art', Npcs:'Nemo Kurai'},
+
+        {id:'uploadtwo-model-five', 
+        name:'Nemo 3d Model v1',  
+        tagline: 'Under Construction',  
+        description: 'Nemo 3D model so far', 
+        dataMade:'Kim','dataUpload':'17-01-2020', 'dataCreated':'22-12-2019', 'dataType':'3D Art', Npcs:'Nemo Kurai'}
+
     ])
 
     
@@ -125,6 +158,41 @@ const [selectedArtvid,setSelectedArtvid] = useState('hide')
                 <div className='artSelectedContent'>
                     <div className={'artImgFolder ' + selectedArtimg}>
                         <p className='artFolderTitle'> Images:</p>
+
+                        <div className='uploadArtDivImg'>
+                            <div className='infoImgDiv flex'>
+                                <p><strong>Uploaded:</strong> 17-01-2020</p>
+                                <p><strong>Upload name:</strong>Nemo Model v1</p>
+                                <p><strong>Made By:</strong> Kim </p>
+                                <p><strong>Image Type:</strong> Concept Art 3D</p>
+                            </div>
+
+                            <div className='theImgDiv flex'>
+
+                                <div className='artImgFrame' >
+                                    <img src={require('../../../assets/maingalleri/image/upload1/nemoModel1.jpg')}  data-id={'uploadtwo-model-one'} alt="Nemo Kurai"  onClick={openArtImageViwer} />
+                                </div>
+
+                                
+                                <div className='artImgFrame' >
+                                    <img src={require('../../../assets/maingalleri/image/upload1/nemoModel2.jpg')} data-id={'uploadtwo-model-two'} alt="Nemo Kurai"  onClick={openArtImageViwer}/>
+                                </div>
+
+
+                                <div className='artImgFrame'>
+                                    <img src={require('../../../assets/maingalleri/image/upload1/nemoModel3.jpg')}  data-id={'uploadtwo-model-three'} alt="Nemo Kurai"  onClick={openArtImageViwer}/>
+                                </div>
+                                
+                                <div className='artImgFrame'>
+                                <img src={require('../../../assets/maingalleri/image/upload1/nemoModel4.jpg')}  data-id={'uploadtwo-model-four'} alt="Nemo Kurai"  onClick={openArtImageViwer}/>
+                                </div>
+                                <div className='artImgFrame'>
+                                <img src={require('../../../assets/maingalleri/image/upload1/nemoModel5.jpg')}  data-id={'uploadtwo-model-fiv'} alt="Nemo Kurai"  onClick={openArtImageViwer}/>
+                                </div>
+                                <div className='artImgFrame'></div>
+                            </div>
+                        </div>
+
 
                         <div className='uploadArtDivImg'>
                             <div className='infoImgDiv flex'>

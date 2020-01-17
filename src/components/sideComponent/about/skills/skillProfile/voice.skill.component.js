@@ -35,7 +35,8 @@ const VoiceSkillComponent = () => {
                 <p>Eerything is Possible</p>
                 <p>-</p>
                 <p>Chareters that Still needs a voice:</p>
-                <p>Nemo Kurai (profile)</p>
+                <p>Narrator</p>
+                <p>Nemo Kurai</p>
                 <p>-</p>
                 <p>Want to Join?</p>
                 <NavLink to='/contact'>Click here, to go to or contact form</NavLink>

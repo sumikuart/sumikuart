@@ -4,3 +4,86 @@
     margin: 0 auto;
     text-align: left;
 }
+
+.synpsisStyle .ScrollerNavContent {
+    width: 20%;
+    border-right: 20px solid #834346;
+    border-bottom: 20px solid #834346;
+    font-size: 28px;
+    background-color: rgb(180, 182, 190);
+    margin:30px;
+    border-radius: 25px;
+    position: fixed;
+    top:350px;
+    left:70%;
+}
+
+.synpsisStyle .ScrollerNavContent p{
+margin:10px 30px;
+}
+
+
+.synpsisStyle .ScrollerNavContent ul {
+    margin-left:40px;   
+}
+.synpsisStyle .ScrollerNavContent ul li {
+    list-style: none;
+}
+
+.synpsisStyle .storyContent,
+.synpsisStyle .featuresContent{
+
+    width: 70%;
+    border-left: 20px solid #834346;
+    border-bottom: 20px solid #834346;
+    font-size: 28px;
+    background-color: rgb(180, 182, 190);
+    margin:30px;
+    border-radius: 25px;
+    padding:30px;   
+}
+
+
+
+.synpsisStyle .groupeContent .spoilerHeadline {
+    background-color: rgba(238, 238, 238, 0.363);
+    color: #444;
+    cursor: pointer;
+    padding: 15px;
+    width: 95%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: 0 auto;
+    border-radius: 25px;
+    margin-top:20px;
+}
+
+.synpsisStyle .groupeContent .spoilerHeadline.hide::after {
+    content:'( Show Spoilers )'
+}
+
+.synpsisStyle .groupeContent .spoilerHeadline.show::after {
+    content:'(  hide Spoilers  )'
+}
+
+
+.synpsisStyle .groupeContent .Spoilers{
+    padding: 0 18px;
+    Width:90%;
+    margin: 20px auto;
+    line-height: 1.5;
+
+
+}
+
+
+.synpsisStyle .groupeContent .Spoilers.hide{
+    display: none;
+}
+
+
+.synpsisStyle .groupeContent .Spoilers.show{
+    display: block;
+}
