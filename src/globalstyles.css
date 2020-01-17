@@ -20,7 +20,7 @@ body,
 }
 
 body{
-    background-color: black;
+    background-color: rgb(47, 47, 47);
     /* background-image: url("./assets/global/backdrop.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;

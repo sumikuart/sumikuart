@@ -170,24 +170,24 @@ const [selectedArtvid,setSelectedArtvid] = useState('hide')
                             <div className='theImgDiv flex'>
 
                                 <div className='artImgFrame' >
-                                    <img src={require('../../../assets/maingalleri/image/upload1/nemoModel1.jpg')}  data-id={'uploadtwo-model-one'} alt="Nemo Kurai"  onClick={openArtImageViwer} />
+                                    <img src={require('../../../assets/maingalleri/image/upload1/nemoModel1.JPG')}  data-id={'uploadtwo-model-one'} alt="Nemo Kurai"  onClick={openArtImageViwer} />
                                 </div>
 
                                 
                                 <div className='artImgFrame' >
-                                    <img src={require('../../../assets/maingalleri/image/upload1/nemoModel2.jpg')} data-id={'uploadtwo-model-two'} alt="Nemo Kurai"  onClick={openArtImageViwer}/>
+                                    <img src={require('../../../assets/maingalleri/image/upload1/nemoModel2.JPG')} data-id={'uploadtwo-model-two'} alt="Nemo Kurai"  onClick={openArtImageViwer}/>
                                 </div>
 
 
                                 <div className='artImgFrame'>
-                                    <img src={require('../../../assets/maingalleri/image/upload1/nemoModel3.jpg')}  data-id={'uploadtwo-model-three'} alt="Nemo Kurai"  onClick={openArtImageViwer}/>
+                                    <img src={require('../../../assets/maingalleri/image/upload1/nemoModel3.JPG')}  data-id={'uploadtwo-model-three'} alt="Nemo Kurai"  onClick={openArtImageViwer}/>
                                 </div>
                                 
                                 <div className='artImgFrame'>
-                                <img src={require('../../../assets/maingalleri/image/upload1/nemoModel4.jpg')}  data-id={'uploadtwo-model-four'} alt="Nemo Kurai"  onClick={openArtImageViwer}/>
+                                <img src={require('../../../assets/maingalleri/image/upload1/nemoModel4.JPG')}  data-id={'uploadtwo-model-four'} alt="Nemo Kurai"  onClick={openArtImageViwer}/>
                                 </div>
                                 <div className='artImgFrame'>
-                                <img src={require('../../../assets/maingalleri/image/upload1/nemoModel5.jpg')}  data-id={'uploadtwo-model-fiv'} alt="Nemo Kurai"  onClick={openArtImageViwer}/>
+                                <img src={require('../../../assets/maingalleri/image/upload1/nemoModel5.JPG')}  data-id={'uploadtwo-model-fiv'} alt="Nemo Kurai"  onClick={openArtImageViwer}/>
                                 </div>
                                 <div className='artImgFrame'></div>
                             </div>
