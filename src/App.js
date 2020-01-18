@@ -26,6 +26,8 @@ import ArtComponent from './components/sideComponent/art/art.component';
 
 // Profiles:
 import SumikuProfileComponent from './components/sideComponent/about/profiles/personalprofile/kim.profile.component';
+import JakobProfileComponent from './components/sideComponent/about/profiles/personalprofile/jakob.profile.component';
+import FelixProfileComponent from  './components/sideComponent/about/profiles/personalprofile/felix.profile.component';
 
 // Skills
 import WritingSkillComponent from './components/sideComponent/about/skills/skillProfile/writing.skill.component'
@@ -37,7 +39,6 @@ import LevelDesignerSkillComponent from './components/sideComponent/about/skills
 import SoundSkillComponent from './components/sideComponent/about/skills/skillProfile/sound.skill.component';
 import VoiceSkillComponent from './components/sideComponent/about/skills/skillProfile/voice.skill.component';
 import NemoNPCComponent from './components/sideComponent/characters/npcs/nemo/nemo.npc.component';
-import JakobProfileComponent from './components/sideComponent/about/profiles/personalprofile/jakob.profile.component';
 import NewsContextProvider from './context/news.context';
 
 
@@ -62,7 +63,8 @@ function App() {
             <Route exact path='/about/profile/empty' component={ProfileComponent} />
             <Route exact path='/about/profile/kim' component={SumikuProfileComponent} />
             <Route exact path='/about/profile/jakob' component={JakobProfileComponent} />
-
+            <Route exact path='/about/profile/felix' component={FelixProfileComponent}/>
+ 
             <Route exact path='/skill/writing' component={WritingSkillComponent} />
             <Route exact path='/skill/programming' component={ProgrammingSkillComponent} />
             <Route exact path='/skill/npcdesigner' component={NPCDesignerSkillComponent} />

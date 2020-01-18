@@ -104,7 +104,7 @@ const HomeComponent = () => {
 
                 <div className='homeFokus'>
                     <p className='smallHeadline'>Looking For new Members!!!</p>
-                    <p>!!!! This is a Practice Project, witch mean that it's about evolving our skills, not about being the best !!!!</p>
+                    <p>!!!! This is a Practice Project, witch mean that it's about evolving our skills, not about being Perfect !!!!</p>
                     <p></p>
                     <p>Do you have one or more of the following skills?</p>
                     <p>Or do you want to get better at any of them?</p>

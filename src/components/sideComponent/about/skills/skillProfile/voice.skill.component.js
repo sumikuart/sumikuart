@@ -1,5 +1,5 @@
 // Main:
-import React, { useContext } from 'react';
+import React, { useContex, useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 
 // Styles:
@@ -8,6 +8,10 @@ import './../skill.style.css'
 
 
 const VoiceSkillComponent = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    },[])
     
     return (
         <div className='skilStyle'>
@@ -17,13 +21,13 @@ const VoiceSkillComponent = () => {
             </div>
 
             <div className='underheadline'>
-                <p>EveryThing you need to know about this skill</p>
+            <p>Everything you need to know about this Team</p>
             </div>
 
             <div className='skillContent'> 
                 <p className='smallHeadline'>Voice Acting</p>
                 <p>Currently on the team:</p>
-                <p>- Jakob (Manager)</p>
+                <NavLink to='/about/profile/jakob'> - Jakob (As manager) </NavLink>
                 <p>- Kim (currently unassigned)</p>
                 <p>Currently members need: Not Specified</p>
                 <p>-</p>

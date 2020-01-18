@@ -8,6 +8,8 @@ import './about.style.css'
 // Components
 import ManegerComponent from './teamMangers/teamManeger.component';
 
+// img:
+import sumikuFace from '../../../assets/team/sumiku.jpg' 
 
 
 const AboutComponent = () => {
@@ -16,7 +18,7 @@ const AboutComponent = () => {
         <div className='aboutstyle'>
 
             <div className='headline'>
-                <p>About The Team</p>
+                <p>About Us</p>
             </div>
 
             <div className='underheadline'>
@@ -26,16 +28,23 @@ const AboutComponent = () => {
            
 
             <div className='aboutTeamInfo'>
-            <p className='smallHeadline'>About the team</p>
 
                 <div className='content'>
-                <p>Welcome to the Development Team. (well its not a team yet, as i am the only one here)</p>
-                <p>This is a serious development team, put together with the goal of making the game: Kumik-3D (working title)</p>
-                <p>More info on the game here:</p>
-                <NavLink to='/story'>Story & Features</NavLink>
-                <p> - </p>
-                <p>Hopefully the Team will Grow, and evolve into a dedikated grupe of people</p>
-                <p>Working as a team, and working as friends.</p>
+                <p className='smallHeadline'>About the team</p>
+                    <p>Welcome to the Development Team.</p>
+                    <div>
+                        <img src={sumikuFace} alt=""/>
+                    </div>
+                    <p>We are a serious development team, put together with the goal of making the game:</p>
+                    <NavLink to='/story'>Kumik-3D (working title)</NavLink>
+                    <p> - </p>
+                    <p>As of now, we are currently three people on the project</p>
+                    <p>Find our profiles below.</p>
+                    <p> - </p>
+                    <p>We are diffrent teams, working toghether on our passion, in order to make the best game we can.</p>
+                    <p> - </p>
+                    <p>Please Note, that this a project for people to train and evolve in.</p>
+
 
                 </div>
 
@@ -66,57 +75,58 @@ const AboutComponent = () => {
                 <NavLink to='/contact'>Contact</NavLink>
             </div>
 
-            <div className='aboutTeamManagers'>
-                <ManegerComponent />
-            </div>
-
             <div className='aboutTeamList'>
                 <p className='smallHeadline'>Team Lists:</p>
+                <p className='moreinfoTeams'>Click on the team name for more info</p>
 
                 <div className='flex teamContainer'>
 
                     <div>
                         
-                <p className='teamCategory'>Story <span>(1)</span> :</p>
+                <NavLink to='/skill/writing' className='teamCategory'> Writing <span>(2)</span> :</NavLink>
                 <ul>
+                    <li>Felix (<NavLink to='/about/profile/felix'>Info</NavLink>)</li>
                     <li>Kim (manager) (<NavLink to='/about/profile/kim'>Info</NavLink>)</li>
                 </ul>
                     </div>
 
-<div>
-                <p className='teamCategory'>Concept Art<span>(1)</span>:  </p>
+                <div>
+                <NavLink to='/skill/npcdesigner' className='teamCategory'>NPC, World & Object Design<span>(2)</span>:  </NavLink>
                 <ul>
+                    <li>Felix (<NavLink to='/about/profile/felix'>Info</NavLink>)</li>
                     <li>Kim (manager) (<NavLink to='/about/profile/kim'>Info</NavLink>)</li>
                 </ul>
                 </div>
 
                 <div>
-                <p className='teamCategory'>Charecter Design<span>(1)</span>:</p>
+                <NavLink to='/skill/model' className='teamCategory'>3D Graphics<span>(1)</span>:</NavLink>
                 <ul>
-                    <li>Kim  (manager) (<NavLink to='/about/profile/kim'>Info</NavLink>)</li>
+                    <li>Kim (<NavLink to='/about/profile/kim'>Info</NavLink>)</li>
                 </ul>
                 </div>
+
+
                 <div>
-                <p className='teamCategory'>3D Graphics<span>(1)</span>:</p>
+                <NavLink to='/skill/lvldesign' className='teamCategory'>3D Levels<span>(1)</span>:</NavLink>
                 <ul>
                     <li>Kim (<NavLink to='/about/profile/kim'>Info</NavLink>)</li>
                 </ul>
                 </div>
 
                 <div>
-                <p className='teamCategory'>Programming<span>(1)</span>:</p>
+                <NavLink to='/skill/programming' className='teamCategory'>Programming<span>(1)</span>:</NavLink>
                 <ul>
                     <li>Kim (manager) (<NavLink to='/about/profile/kim'>Info</NavLink>)</li>
                 </ul>
                 </div>
                 <div>
-                <p className='teamCategory'>Animation<span>(1)</span>:</p>
+                <NavLink to='/skill/animation' className='teamCategory'>Animation<span>(1)</span>:</NavLink>
                 <ul>
                     <li>Kim (<NavLink to='/about/profile/kim'>Info</NavLink>)</li>
                 </ul>
                 </div>
                 <div>
-                <p className='teamCategory'>Music & Sound<span>(2)</span>:</p>
+                <NavLink to='/skill/sound' className='teamCategory'>Music & Sound<span>(2)</span>:</NavLink>
                 <ul>
                     <li>Jakob  (manager) (<NavLink to='/about/profile/jakob'>Info</NavLink>)</li>
                     <li>Kim (<NavLink to='/about/profile/kim'>Info</NavLink>)</li>
@@ -124,7 +134,7 @@ const AboutComponent = () => {
                 </div>
 
                 <div>
-                <p className='teamCategory'>Voice Acting<span>(2)</span>:</p>
+                <NavLink to='/skill/voice' className='teamCategory'>Voice Acting<span>(2)</span>:</NavLink>
                 <ul>
                     <li>Jakob  (manager) (<NavLink to='/about/profile/jakob'>Info</NavLink>)</li>
                     <li>Kim (<NavLink to='/about/profile/kim'>Info</NavLink>)</li>
@@ -145,6 +155,12 @@ const AboutComponent = () => {
 
             </div>
 
+
+            <div className='aboutTeamManagers'>
+                <ManegerComponent />
+            </div>
+
+         
         </div>  
     )
 

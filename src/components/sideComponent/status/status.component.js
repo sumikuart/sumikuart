@@ -42,7 +42,7 @@ const StatusComponent = () => {
                     <div className='textStatusDiv'>
                         <div className='statusTitle'> <p>Get v1.0 of the Website online</p> </div>
                         <div className='statusDate'> <p>06-01-2020</p></div>
-                        <div className='statusDate'> <p>15-01-2020</p></div>
+                        <div className='statusDate'> <p>18-01-2020</p></div>
                         <div className='statusDate'> <p>19-01-2020</p></div>
                         <div className='statusPerson'> <NavLink to='/about/profile/kim'>Kim</NavLink></div>
                         <div className='StatusDone high'>  <p>High</p></div>
@@ -67,7 +67,7 @@ const StatusComponent = () => {
                         <div className='statusTitle'> <p> Make Nemo Kurai Npc 3D model in blender</p> </div>
                         <div className='statusDate'> <p>22-12-2019</p></div>
                         <div className='statusDate'> <p>05-01-2020</p></div>
-                        <div className='statusDate'> <p>19-01-2020</p></div>
+                        <div className='statusDate'> <p>----------</p></div>
                         <div className='statusPerson'> <NavLink to='/about/profile/kim'>Kim</NavLink></div>
                         <div className='StatusDone medium'>  <p>Medium</p></div>
                     </div>
@@ -78,7 +78,7 @@ const StatusComponent = () => {
                     <div className='textStatusDiv'>
                         <div className='statusTitle'> <p> Make Nemo Kurai's Music Theme</p> </div>
                         <div className='statusDate'> <p>13-01-2020</p></div>
-                        <div className='statusDate'> <p>13-01-2020</p></div>
+                        <div className='statusDate'> <p>17-01-2020</p></div>
                         <div className='statusDate'> <p>----------</p></div>
                         <div className='statusPerson'><NavLink to='/about/profile/jakob'>Jakob</NavLink></div>
                         <div className='StatusDone medium'>  <p>Medium</p></div>

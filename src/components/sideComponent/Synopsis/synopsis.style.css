@@ -31,6 +31,14 @@ margin:10px 30px;
     list-style: none;
 }
 
+.synpsisStyle .ScrollerNavContent ul li a{
+    color:black;
+}
+
+.synpsisStyle .ScrollerNavContent .bottomUlSynopsisNav {
+    margin-bottom:50px;
+}
+
 .synpsisStyle .storyContent,
 .synpsisStyle .featuresContent{
 
@@ -77,6 +85,10 @@ margin:10px 30px;
     line-height: 1.5;
 
 
+}
+
+.synpsisStyle .groupeContent .Spoilers .synopsisQvote {
+    font-style: italic;
 }
 
 

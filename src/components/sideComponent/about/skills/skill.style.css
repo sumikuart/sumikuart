@@ -14,5 +14,11 @@
     background-color: rgb(180, 182, 190);
     border-radius: 25px;
     margin:30px 0;
-    padding-Bottom:30px;
+    padding-Bottom:50px;
+    padding-top:50px;
+}
+
+.skilStyle .skillContent a{
+    display: block;
+    color: black;
 }

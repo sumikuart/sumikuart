@@ -1,5 +1,5 @@
 // Main:
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 
 // Styles:
@@ -8,6 +8,10 @@ import './../skill.style.css'
 
 
 const LevelDesignerSkillComponent = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    },[])
     
     return (
         <div className='skilStyle'>
@@ -17,13 +21,13 @@ const LevelDesignerSkillComponent = () => {
             </div>
 
             <div className='underheadline'>
-                <p>EveryThing you need to know about this skill</p>
+                <p>Everything you need to know about this Team</p>
             </div>
 
             <div className='skillContent'> 
                 <p className='smallHeadline'>Level Designer</p>
                 <p>Currently on the team:</p>
-                <p>- Kim (This is hope fully temporary, and i will leave, when better people joins)</p>
+                <NavLink to='/about/profile/felix'> - Felix </NavLink>
                 <p>Currently members need: Not Specified</p>
                 <p>-</p>
                 <p>Do you want to help, making this world come to life?</p>
@@ -36,8 +40,7 @@ const LevelDesignerSkillComponent = () => {
                 <p>Note: you will have a LOT of freedom, in the design, and more.</p>
                 <p>But it will need to be approved, in order to make the game coherent</p>
                 <p>-</p>
-                <p>This team is currently Empty, and there for your main coworker will be me. (kim)</p>
-                <p>As more joins, you will be working with a team and a manager (or do you want to be the manager?)</p>
+                <p>If you want to join, you will be working with a team and a manager (or do you want to be the manager?)</p>
                 <p>Eerything is Possible</p>
                 <p>-</p>
                 <p>Want to Join?</p>

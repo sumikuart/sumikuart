@@ -57,6 +57,14 @@
 
 
 .archiveStyle .articelNewsImgContainer img {
-    width:90%;
+    width:auto;
+    height:500px;
     margin: 0 auto;
+    margin-bottom: 50px;
+
+}
+
+.archiveStyle .articelNewsTextContainer a {
+    font-size: 38px;
+
 }

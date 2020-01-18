@@ -69,7 +69,8 @@ const NewsComponent = (props) => {
                                 <li className='noListPoint'><p>January 2020:</p></li>
                                 <li><NavLink className='archiveLink' data-id={'2020janOne'} to='/artikels/2020janOne' onClick={changeNews}> 1. Under Construction part 1.</NavLink></li>
                                 <li><NavLink className='archiveLink' data-id={'2020janTwo'} to='/artikels/2020janTwo' onClick={changeNews}> 2. A New Member has emerged.</NavLink></li>
-                                <li><NavLink className='archiveLink' data-id={'news'} to='/artikels/news' onClick={changeNews}>3. Under Construction part 2. </NavLink></li>
+                                <li><NavLink className='archiveLink' data-id={'2020janThree'} to='/artikels/2020janThree' onClick={changeNews}> 3. Under Construction part 2.</NavLink></li>
+                                <li><NavLink className='archiveLink' data-id={'news'} to='/artikels/news' onClick={changeNews}>4. Another one joins us! </NavLink></li>
                             </ul>
                         </div>
 

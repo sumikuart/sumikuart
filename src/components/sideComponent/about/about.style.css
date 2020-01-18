@@ -16,13 +16,21 @@
     line-height: 1.5;
     background-color: rgb(180, 182, 190);
     border-radius: 25px;
-    text-align: center;
     margin: 40px 0;
 }
 
+
+.aboutstyle .aboutTeamInfo{}
+
 .aboutstyle .aboutTeamInfo  .content {
-    text-align: left;
+    text-align: center;
+    padding:50px;
 }
+
+.aboutstyle .aboutTeamNotice {
+    padding:50px;
+}
+
 
 .aboutstyle .aboutTeamNotice .aboutObs {
     font-size: 24px;
@@ -48,6 +56,11 @@
     color: black;
 }
 
+
+.aboutstyle  .aboutTeamList {
+    padding-top:50px;
+}
+
 .aboutstyle  .aboutTeamList  .teamCategory {
     text-decoration: underline;
     text-align: left;
@@ -55,15 +68,28 @@
     margin-left:30px;
 }
 
-.aboutstyle  .aboutTeamList  .teamCategory span{
+.aboutstyle  .aboutTeamList .moreinfoTeams {
+    font-style: italic;
+    text-align: center;
+}
+
+.aboutstyle  .aboutTeamList  .teamCategory a {
+    text-decoration: underline;
+    text-align: left;
+    font-weight: bolder;
+    color:black;
+
+}
+
+.aboutstyle  .aboutTeamList  .teamCategory a span{
     font-style: italic;
     font-size: 20px;
 }
 
 .aboutstyle  .aboutTeamList ul {
     display: block;
-text-align: left;
-margin-left:100px;
+    text-align: left;
+    margin-left:100px;
 
 }
 
@@ -73,6 +99,7 @@ margin-left:100px;
 
 .aboutstyle .teamContainer {
     flex-wrap: wrap;
+    margin:50px;
 }
 
 .aboutstyle .teamContainer div {

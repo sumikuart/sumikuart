@@ -166,7 +166,7 @@ const [selectedArtvid,setSelectedArtvid] = useState('hide')
                                 <p><strong>Made By:</strong> Kim </p>
                                 <p><strong>Image Type:</strong> Concept Art 3D</p>
                             </div>
-
+ 
                             <div className='theImgDiv flex'>
 
                                 <div className='artImgFrame' >
