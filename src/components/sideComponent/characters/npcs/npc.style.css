@@ -179,3 +179,13 @@
     opacity: 1;
     text-shadow: 0px 0px 15px rgb(255, 230, 0);
 }
+
+.npcStyle .npcInterviewQ {
+    font-weight: bolder;
+    font-size: 32px;
+    margin-top:30px;
+}
+
+.npcStyle .npcInterviewA {
+    margin-left:50px;
+}

@@ -31,7 +31,7 @@ const FelixProfileComponent = () => {
                     <div className = 'uppertextcontent'>
                         <div className = 'textInProfileData'>
                         <p className ='question' >Name:</p>
-                        <p className = 'info'> Felix Misha Frier </p>
+                        <p className = 'info'> Felix M. F. </p>
                         <p className ='question'>Age:</p>
                         <p className = 'info'> 22</p>
                         <p className ='question'>From:</p>

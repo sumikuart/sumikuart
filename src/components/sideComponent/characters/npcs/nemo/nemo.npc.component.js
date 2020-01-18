@@ -76,7 +76,8 @@ const NemoNPCComponent = () => {
             </div>
 
             <div className='underheadline'>
-                <p>Miko of Freedom</p>
+                <p>Miko of - - - - - - 
+                </p>
             </div>
 
             <div className='npcTopContent flex'>
@@ -91,8 +92,12 @@ const NemoNPCComponent = () => {
                     <p className='labelNPC'>Gender:</p>
                     <p className='labelNPCcontent'>female</p>
 
+                    <p className='labelNPC'>personality:</p>
+                    <p className='labelNPCcontent'>Independent</p>
+
+
                     <p className='labelNPC'>Hobby:</p>
-                    <p className='labelNPCcontent'>Drawing, painting & Reading</p>
+                    <p className='labelNPCcontent'>Painting, drawing & Reading</p>
 
                     <p className='labelNPC'>Music Theme:</p>
                     <p className='labelNPCcontent'>Not made yet</p>
@@ -149,12 +154,24 @@ const NemoNPCComponent = () => {
 
                 <div className={'npcContent ' + npcProfile}>
                     <p className='smallHeadline'>Profile</p>
-                    <p>Hej! My name is Nemo :)</p>
+                    <p>Hey, im Nemo</p>
+                    <p>I don't really talk much, but you are always welcome to say hi</p>
+                    <p>I might come off as a intimidating person. But its not like that, i just value my free time :)</p>
+                    <p>So the school asked me if i wanted to enrolle. And the nature around it seems Soooo beautiful</p>
+                    <p>So yeah, i said yes. ^^</p>
                 </div>
 
                 <div className={'npcContent ' + npcInterview}>
                     <p className='smallHeadline'>Interview</p>
-                    <p>More to come</p>
+                    <p className='npcInterviewQ'>What Class did you enroll on in this Universety?</p>
+                    <p className='npcInterviewA'>I Main in  Watercolor paintings</p>
+
+                    <p className='npcInterviewQ'>Ahh so you paint! What is your favorit piece you have made?</p>
+                    <p className='npcInterviewA'>What do you mean?</p>
+
+                    
+                    <p className='npcInterviewQ'>There must be one, you have made that you like more then the rest?</p>
+                    <p className='npcInterviewA'>Not really... i mean, i like painting. not looking at them</p>
                 </div>
 
                 <div className={'npcContent ' + npcBackstory}>
@@ -164,7 +181,7 @@ const NemoNPCComponent = () => {
 
                 <div className={'npcContent ' + npcAbilities}>
                     <p className='smallHeadline'>Abilities</p>
-                    <p>More to come</p>
+                    <p>Secrets will be Secrets</p>
                 </div>
 
                 <div className={'npcContent ' + npcImg}>
