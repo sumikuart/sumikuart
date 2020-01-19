@@ -82,15 +82,15 @@
 }
 
 
-.artcomponentstyle .mainArtContent .uploadArtDivImg .infoImgDiv {
+.artcomponentstyle .mainArtContent  .infoImgDiv {
     justify-content: space-between;
     text-align: center;
 }
-.artcomponentstyle .mainArtContent .uploadArtDivImg .infoImgDiv p {
+.artcomponentstyle .mainArtContent  .infoImgDiv p {
     width:20%;
 }
 
-.artcomponentstyle .mainArtContent .uploadArtDivImg .infoImgDiv p strong {
+.artcomponentstyle .mainArtContent  .infoImgDiv p strong {
     display: block;
 }
 

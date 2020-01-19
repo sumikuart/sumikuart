@@ -7,6 +7,8 @@
     margin-top:30px;
     margin-left:30px;
     text-align: left;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 
@@ -57,8 +59,9 @@
 
 
 .archiveStyle .articelNewsImgContainer img {
+    max-width:100%;
     width:auto;
-    height:500px;
+    max-height:500px;
     margin: 0 auto;
     margin-bottom: 50px;
 

@@ -40,21 +40,22 @@ const StatusComponent = () => {
                 <div className='masterStatusDiv'>
                     <div className='visualStatusDiv'></div>
                     <div className='textStatusDiv'>
-                        <div className='statusTitle'> <p>Get v1.0 of the Website online</p> </div>
-                        <div className='statusDate'> <p>06-01-2020</p></div>
-                        <div className='statusDate'> <p>18-01-2020</p></div>
+                        <div className='statusTitle'> <p>Start working on the next Miko</p> </div>
                         <div className='statusDate'> <p>19-01-2020</p></div>
-                        <div className='statusPerson'> <NavLink to='/about/profile/kim'>Kim</NavLink></div>
+                        <div className='statusDate'> <p>----------</p></div>
+                        <div className='statusDate'> <p>----------</p></div>
+                        <div className='statusPerson'> <NavLink to='/about/profile/felix'>Felix,</NavLink> <NavLink to='/about/profile/kim'>Kim</NavLink></div>
                         <div className='StatusDone high'>  <p>High</p></div>
                     </div>
                 </div>
+
 
                 <div className='masterStatusDiv'>
                     <div className='visualStatusDiv'></div>
                     <div className='textStatusDiv'>
                         <div className='statusTitle'> <p>Get more people to join the Team/project</p> </div>
                         <div className='statusDate'> <p>06-01-2020</p></div>
-                        <div className='statusDate'> <p>13-01-2020</p></div>
+                        <div className='statusDate'> <p>17-01-2020</p></div>
                         <div className='statusDate'> <p>----------</p></div>
                         <div className='statusPerson'> <NavLink to='/about/profile/kim'>Kim</NavLink></div>
                         <div className='StatusDone medium'>  <p>Medium</p></div>
@@ -69,6 +70,18 @@ const StatusComponent = () => {
                         <div className='statusDate'> <p>05-01-2020</p></div>
                         <div className='statusDate'> <p>----------</p></div>
                         <div className='statusPerson'> <NavLink to='/about/profile/kim'>Kim</NavLink></div>
+                        <div className='StatusDone high'>  <p>High</p></div>
+                    </div>
+                </div>
+
+                <div className='masterStatusDiv'>
+                    <div className='visualStatusDiv'></div>
+                    <div className='textStatusDiv'>
+                        <div className='statusTitle'> <p> Complete Nemo Kurai's Music Theme</p> </div>
+                        <div className='statusDate'> <p>19-01-2020</p></div>
+                        <div className='statusDate'> <p>----------</p></div>
+                        <div className='statusDate'> <p>----------</p></div>
+                        <div className='statusPerson'><NavLink to='/about/profile/jakob'>Jakob</NavLink></div>
                         <div className='StatusDone medium'>  <p>Medium</p></div>
                     </div>
                 </div>
@@ -76,9 +89,9 @@ const StatusComponent = () => {
                 <div className='masterStatusDiv'>
                     <div className='visualStatusDiv'></div>
                     <div className='textStatusDiv'>
-                        <div className='statusTitle'> <p> Make Nemo Kurai's Music Theme</p> </div>
-                        <div className='statusDate'> <p>13-01-2020</p></div>
-                        <div className='statusDate'> <p>17-01-2020</p></div>
+                        <div className='statusTitle'> <p>Start Working on a Menu theme</p> </div>
+                        <div className='statusDate'> <p>19-01-2020</p></div>
+                        <div className='statusDate'> <p>----------</p></div>
                         <div className='statusDate'> <p>----------</p></div>
                         <div className='statusPerson'><NavLink to='/about/profile/jakob'>Jakob</NavLink></div>
                         <div className='StatusDone medium'>  <p>Medium</p></div>
@@ -86,16 +99,15 @@ const StatusComponent = () => {
                 </div>
 
 
-
                 <div className='masterStatusDiv'>
                     <div className='visualStatusDiv firstStatus'></div>
                     <div className='textStatusDiv '>
-                        <div className='statusTitle'> <p>WRITE MORE NOTES!!!</p> </div>
+                        <div className='statusTitle'> <p>Write more notes</p> </div>
                         <div className='statusDate'> <p>06-01-2020</p></div>
                         <div className='statusDate'> <p>15-01-2020</p></div>
                         <div className='statusDate'> <p>----------</p></div>
                         <div className='statusPerson'><NavLink to='/about/profile/kim'>Kim</NavLink></div>
-                        <div className='StatusDone low'>  <p>Low</p></div>
+                        <div className='StatusDone medium'>  <p>Medium</p></div>
                     </div>
                 </div>
             </div>
@@ -113,6 +125,30 @@ const StatusComponent = () => {
                         <div className='StatusDone'>  <p>Status:</p></div>
                     </div>
                 </div>
+
+                <div className='masterStatusDiv'>
+                    <div className='visualStatusDiv'></div>
+                    <div className='textStatusDiv'>
+                        <div className='statusTitle'> <p>Get v1.0 of the Website online</p> </div>
+                        <div className='statusDate'> <p>06-01-2020</p></div>
+                        <div className='statusDate'> <p>19-01-2020</p></div>
+                        <div className='statusPerson'> <NavLink to='/about/profile/kim'>Kim</NavLink></div>
+                        <div className='StatusDone done'>  <p>Complete</p></div>
+                    </div>
+                </div>
+
+                
+                <div className='masterStatusDiv'>
+                    <div className='visualStatusDiv'></div>
+                    <div className='textStatusDiv'>
+                        <div className='statusTitle'> <p> Make a demo of Nemo Kurai's Music Theme</p> </div>
+                        <div className='statusDate'> <p>13-01-2020</p></div>
+                        <div className='statusDate'> <p>18-01-2020</p></div>
+                        <div className='statusPerson'><NavLink to='/about/profile/jakob'>Jakob</NavLink></div>
+                        <div className='StatusDone done'>  <p>Complete</p></div>
+                    </div>
+                </div>
+
 
                 <div className='masterStatusDiv'>
                     <div className='visualStatusDiv'></div>

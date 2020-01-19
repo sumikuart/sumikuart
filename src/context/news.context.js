@@ -20,9 +20,14 @@ const NewsContextProvider = (props) => {
         content:'it is almoste time, so excidet!!! hopefully i will uploade this doing the comming weekend, just need to add more details to the site, and make the page for contact and The Story. Then im done, and the site will be uploaded', 
         link:'', linkText:'',img:'2020janThree.jpg', by:'Kim',  byLink:'/about/profile/kim'},
 
-        {id:'news', 'name':'Another one joins us!',date:'17-01-2020', tag:'Give a warme welcome to Felix', 
+        {id:'2020janFour', 'name':'Another one joins us!',date:'17-01-2020', tag:'Give a warme welcome to Felix', 
         content:'Felix has joined us yay, He will join the writing team and the design team. So he wil influence the world and its NPCs, take a look at his profile ', 
-        link:'/about/profile/felix', linkText:'Felixs Profile',img:'2020janFour.jpg', by:'Kim',  byLink:'/about/profile/kim'}
+        link:'/about/profile/felix', linkText:'Felixs Profile',img:'2020janFour.jpg', by:'Kim',  byLink:'/about/profile/kim'},
+
+        
+        {id:'news', 'name':' Construction Complete! - We Are ONLINE!!! YAY',date:'19-01-2020', tag:'Hallo World', 
+        content:'It is with pride i can now write this text, to tell everyone that the project is online on the web with this update. more to come!', 
+        link:'', linkText:'',img:'2020janFive.jpg', by:'Kim',  byLink:'/about/profile/kim'}
     ])
 
     // Set the newest artikel id to id:'news'. 

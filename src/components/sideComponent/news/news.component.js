@@ -62,7 +62,7 @@ const NewsComponent = (props) => {
                     <div className='newsRightContent'>
                         <p className='smallHeadline'>News Archive:</p>
                         <ul>
-                            <li className='currentNewLink'><NavLink className='archiveLink' data-id={'news'} to='/artikels/news' onClick={changeNews}>Current News <span>(Under Construction part 2)</span></NavLink></li>
+                            <li className='currentNewLink'><NavLink className='archiveLink' data-id={'news'} to='/artikels/news' onClick={changeNews}>Current News <span>( onstruction Complete.)</span></NavLink></li>
                         </ul>
                         <div className='scrollerNewsArchive'>
                             <ul>
@@ -70,7 +70,8 @@ const NewsComponent = (props) => {
                                 <li><NavLink className='archiveLink' data-id={'2020janOne'} to='/artikels/2020janOne' onClick={changeNews}> 1. Under Construction part 1.</NavLink></li>
                                 <li><NavLink className='archiveLink' data-id={'2020janTwo'} to='/artikels/2020janTwo' onClick={changeNews}> 2. A New Member has emerged.</NavLink></li>
                                 <li><NavLink className='archiveLink' data-id={'2020janThree'} to='/artikels/2020janThree' onClick={changeNews}> 3. Under Construction part 2.</NavLink></li>
-                                <li><NavLink className='archiveLink' data-id={'news'} to='/artikels/news' onClick={changeNews}>4. Another one joins us! </NavLink></li>
+                                <li><NavLink className='archiveLink' data-id={'2020janFour'} to='/artikels/2020janFour' onClick={changeNews}>4. Another one joins us! </NavLink></li>
+                                <li><NavLink className='archiveLink' data-id={'news'} to='/artikels/news' onClick={changeNews}> 5. Construction Complete.</NavLink></li>
                             </ul>
                         </div>
 

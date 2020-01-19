@@ -276,7 +276,20 @@ const [selectedArtvid,setSelectedArtvid] = useState('hide')
 
                     <div className={'artSoundFolder ' + selectedArtsound}>
                         <p className='artFolderTitle'>Sounds:</p>
-                        <p>Our Sound Manager Jakob is working on the Music as you read this</p>
+                    
+
+                            <div className='infoImgDiv flex'>
+                                  <p><strong>Uploaded:</strong> 19-01-2020</p>
+                                <p><strong>Upload name:</strong>Old Asian Them (Demo)</p>
+                                <p><strong>Made By:</strong> By: Yah Kob og Felx(Jakob Kjær (Sound Manager) & Thies Raagaard) </p>
+                                <p><strong>Image Type:</strong>Demo Music</p>
+                            </div>
+                      
+                            <audio controls controlsList="nodownload">
+                                <source src={require('../../../assets/maingalleri/sound/Asian_track_1.mp3')} type="audio/mpeg" />
+                            </audio>
+
+
                         </div>
 
                     <div className={'artVidFolder ' + selectedArtvid}>

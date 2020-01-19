@@ -32,6 +32,8 @@ const SumikuProfileComponent = () => {
                         <div className = 'textInProfileData'>
                         <p className ='question' >Name:</p>
                         <p className = 'info'>Kim J. W.</p>
+                        <p className ='question'>Joind:</p>
+                        <p className = 'info'>22-12-2019</p>
                         <p className ='question'>Age:</p>
                         <p className = 'info'> 30 </p>
                         <p className ='question'>From:</p>
@@ -66,15 +68,15 @@ const SumikuProfileComponent = () => {
                 <div className = 'profileMeatText'>
                     <p className = 'profileHeadline'>Profile:</p>
                     <p className = 'profileText'>Welcome!</p>
-                    <p className = 'profileText'>Im am the Founder of this Project, i have always wished to program, and make games.</p>
+                    <p className = 'profileText'>Im am the Founder of this Project, i have always wished to use my creativity to program, and make games.</p>
                     <p className = 'profileText'>So i startet out as a Web Developer, in order to get the feel of how things work. </p>
-                    <p className = 'profileText'>And now that my Web Development education is about to end, i have decisede to take the big leep.</p>
-                    <p className = 'profileText'>Hopefully, that means that i can start at a Game Development Programming educaton, later this year.</p>
+                    <p className = 'profileText'>And now that my Web Development education is about to end, i have decisede to take the leep.</p>
+                    <p className = 'profileText'>Hopefully, that means that i can start at a Game Development Programming school, later this year.</p>
                     <p className = 'profileText'>-----</p>
                     <p className = 'profileText'>But since i Enjoy working on projects and programming, i deciedet to make.. THIS</p>
                     <p className = 'profileText'>Kumik 3D (working title), Will be a Big and exciting project, for everyone involved</p>
                     <p className = 'profileText'>My Goal is to have this running Parallel with my Game Developments education. </p>
-                    <p className = 'profileText'>And in the end, hopefully we can make this a Project people will buy</p>
+                    <p className = 'profileText'>And in the end, hopefully we can make this a Project come true</p>
     
                 </div>
 

@@ -39,6 +39,11 @@
     padding-bottom: 10px;
 }
 
+.npcStyle .npcTopContent .textNPCHolder audio {
+    margin-left:30px;
+    margin-bottom: 10px;
+}
+
 .npcStyle .npcTopContent .imgHolderNpcs {
     width:50%;
 }
@@ -109,7 +114,7 @@
     cursor: pointer;
 }
 .npcStyle .imgNpcGalleri .imgNpcGalleriInfo {
-    width:60%;
+    width:80%;
     justify-content: space-between;
     margin: 30px 0;
 

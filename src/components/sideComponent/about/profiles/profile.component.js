@@ -30,6 +30,8 @@ const ProfileComponent = () => {
                         <div className = 'textInProfileData'>
                         <p className ='question' >Name:</p>
                         <p className = 'info'>-Name-</p>
+                        <p className ='question'>Joind:</p>
+                        <p className = 'info'>-date-</p>
                         <p className ='question'>Age:</p>
                         <p className = 'info'> -Age-</p>
                         <p className ='question'>From:</p>
@@ -37,7 +39,7 @@ const ProfileComponent = () => {
                         <p className ='question'>Skills:</p>
                         <p className = 'info'>-Skills-</p>
                         <p className ='question'>Focus Area(s) in this Development:</p>
-                        <p className = 'info'>-Focus-</p>
+                        <p className = 'info'>-Focus-</p>         
                         <p className ='question'>Contact:</p>
                         <p className = 'info'>-Contact-</p>
                         </div>

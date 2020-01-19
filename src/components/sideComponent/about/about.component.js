@@ -35,7 +35,7 @@ const AboutComponent = () => {
                     <div>
                         <img src={sumikuFace} alt=""/>
                     </div>
-                    <p>We are a serious development team, put together with the goal of making the game:</p>
+                    <p>We are a serious development team, put together with the goal of making this game:</p>
                     <NavLink to='/story'>Kumik-3D (working title)</NavLink>
                     <p> - </p>
                     <p>As of now, we are currently three people on the project</p>
